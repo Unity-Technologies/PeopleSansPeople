@@ -49,8 +49,24 @@ The generated dataset will be in Perception format. The annotations will appear 
 ## Running Linux Binary
 
 1. Unzip `neurips_bin` file
+
+```
+$ wget https://storage.googleapis.com/peoplesanspeople/neurips_bin.zip
+$ unzip neurips_bin.zip
+```
+
 2. Install graphics drivers and vulkan libraries. You can skip the following driver installation instructions (i-v) if you already have installed driver and libraries and are not using a cloud VM.
-    1. Assuming you have Ubuntu 18.04 on GCE instance with NVIDIA Tesla T4 GPU. Install drivers using these [instructions.](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu)
+    1. Assuming you have Ubuntu 18.04 on GCE instance with NVIDIA Tesla T4 GPU. Install NVIDIA and CUDA drivers using these [instructions.](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu) For a GCE VM instance with `n1-standard-8`, `1x NVIDIA Tesla T4 GPU`, `100 GB SSD`, and Ubuntu 18.04 the installation would be:
+    ```
+    $ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
+    $ sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
+    $ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+    $ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/ /"
+    $ sudo apt-get update
+    $ sudo apt-get -y install cuda
+    # reboot the machine and ensure the nvidia drivers are installed
+    $ sudo nvidia-smi
+    ```
     2. Install vulkan libraries using the command: `sudo apt install nvidia-settings vulkan-utils`
     3. Now install x-server using the command: `sudo apt-get install xserver-xorg`
     4. Create xorg.conf file: `sudo nvidia-xconfig -a --virtual=1280x1024`
