@@ -83,4 +83,4 @@ where `<UUID>` is the folder where the generated dataset from the last simulatio
 
 ## License
 
-Dataset Insights is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
