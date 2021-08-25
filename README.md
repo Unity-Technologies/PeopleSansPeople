@@ -26,7 +26,7 @@ Under the `randomizers` you will find different randomizers and their exposed pa
 
 ## Running the Mac Binary
 
-1. Unzip `neurips_bin` file.
+1. Unzip `neurips_bin` file and navigate inside this directory.
 2. Run the script `run.sh`. See usage of the script for more details on how to run this script:
 
 ```
@@ -75,6 +75,7 @@ $ unzip neurips_bin.zip
 3. Run `run.sh` script. See usage of the script for more details on how to run this script:
 
 ```
+$ cd neurips_bin
 $ bash run.sh -h
 ```
 For example:
