@@ -34,7 +34,7 @@ $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l
+$ bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/mac_0.1.0/log.txt
 ```
 
 3. On MacOS the dataset will be written to 
@@ -45,5 +45,35 @@ where `<USERNAME>` is your user name and `<UUID>` is the folder where the genera
 The dataset output folder will also be shown in the logs in the terminal.
 
 The generated dataset will be in Perception format. The annotations will appear under `DatasetXXXX...` folder in `captures_000.json` and the corresponding images will appear in the `RGBXXXX...` folder. Additionally Perception writes scene metadata to `metrics_XXX.json` files under the `DatasetXXXX...` folder.
+
+## Running Linux Binary
+
+1. Unzip `neurips_bin` file
+2. Install graphics drivers and vulkan libraries. You can skip the following driver installation instructions (i-v) if you already have installed driver and libraries and are not using a cloud VM.
+    1. Assuming you have Ubuntu 18.04 on GCE instance with NVIDIA Tesla T4 GPU. Install drivers using these [instructions.](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu)
+    2. Install vulkan libraries using the command: `sudo apt install nvidia-settings vulkan-utils`
+    3. Now install x-server using the command: `sudo apt-get install xserver-xorg`
+    4. Create xorg.conf file: `sudo nvidia-xconfig -a --virtual=1280x1024`
+    5. Run xserver: `sudo /usr/bin/X :0 &`
+        - If this gives you error edit `xorg.conf` file and comment or remove `ServerLayout` and `Screen` sections.
+3. Run `run.sh` script. See usage of the script for more details on how to run this script:
+
+```
+$ bash run.sh -h
+```
+For example:
+```
+$ bash run.sh run -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+```
+If you're running in a cloud VM: 
+```
+DISPLAY=:0 bash run.sh -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+```
+4. The dataset will be written to 
+```
+$XDG_CONFIG_HOME/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
+```
+where `<UUID>` is the folder where the generated dataset from the last simulation is saved. The dataset output folder will also be shown in the logs in the terminal.
+
 
 ##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
