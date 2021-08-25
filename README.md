@@ -29,6 +29,8 @@ It is possible to vary the randomizer parameters in `scenarioConfiguration.json`
 For example `totalIterations` is the number of frames generated and `randomSeed` is the generation seed.
 Under the `randomizers` you will find different randomizers and their exposed parameters and ranges. We ship the configuration file with the same randomizer configurations that were used to generate the data on our paper.
 
+##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
+
 ## Running the Mac Binary
 
 1. Download and unzip `mac_0.1.0.zip` file and navigate inside this directory.
@@ -102,8 +104,7 @@ or as an example
 ```
 where `<UUID>` is the folder where the generated dataset from the last simulation is saved. The dataset output folder will also be shown in the logs in the terminal.
 
-
-##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
+The generated dataset will be in Perception format. The annotations will appear under `DatasetXXXX...` folder in `captures_000.json` and the corresponding images will appear in the `RGBXXXX...` folder. Additionally Perception writes scene metadata to `metrics_XXX.json` files under the `DatasetXXXX...` folder.
 
 # psp
 Public slack channel: [#devs-ai-humandet](https://unity.slack.com/messages/C01MW8AJU4F/)
