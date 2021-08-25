@@ -89,7 +89,7 @@ $ bash run.sh run -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/
 ```
 If you're running in a cloud VM:
 ```
-DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+$ DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
 ```
 4. The dataset will be written to
 ```
