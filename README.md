@@ -17,6 +17,11 @@
 <br />
 **All rights reserved for Unity Technologies.**
 
+## License
+
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
+
+
 ## Dataset Generation Instructions
 
 We provide two binary files for Linux and MacOS. The binary file will generate the synthetic dataset and corresponding labels from the provided `scenarioConfiguration.json` file.
@@ -78,30 +83,26 @@ $ unzip neurips_bin.zip
 $ cd neurips_bin
 $ bash run.sh -h
 ```
-For example:
+For example on a local linux machine:
 ```
-$ bash run.sh run -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+$ bash run.sh run -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
 ```
 If you're running in a cloud VM:
 ```
-DISPLAY=:0 bash run.sh -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
 ```
 4. The dataset will be written to
 ```
 $XDG_CONFIG_HOME/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
 ```
+or as an example
+```
+/home/<USERNAME>/.config/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
+```
 where `<UUID>` is the folder where the generated dataset from the last simulation is saved. The dataset output folder will also be shown in the logs in the terminal.
 
 
 ##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
-
-
-
-
-## License
-
-PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
-
 
 # psp
 Public slack channel: [#devs-ai-humandet](https://unity.slack.com/messages/C01MW8AJU4F/)
