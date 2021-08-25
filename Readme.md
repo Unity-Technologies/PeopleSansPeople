@@ -77,3 +77,10 @@ where `<UUID>` is the folder where the generated dataset from the last simulatio
 
 
 ##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
+
+
+
+
+## License
+
+Dataset Insights is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
