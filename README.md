@@ -31,7 +31,7 @@ Under the `randomizers` you will find different randomizers and their exposed pa
 
 ## Running the Mac Binary
 
-1. Unzip `neurips_bin` file and navigate inside this directory.
+1. Download and unzip `mac_0.1.0.zip` file and navigate inside this directory.
 2. Run the script `run.sh`. See usage of the script for more details on how to run this script:
 
 ```
@@ -39,7 +39,7 @@ $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/mac_0.1.0/log.txt
+$ bash run.sh run -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
 ```
 
 3. On MacOS the dataset will be written to
@@ -53,11 +53,11 @@ The generated dataset will be in Perception format. The annotations will appear 
 
 ## Running Linux Binary
 
-1. Unzip `neurips_bin` file
+1. Download and unzip `linux_0.1.0.zip` file
 
 ```
-$ wget https://storage.googleapis.com/peoplesanspeople/neurips_bin.zip
-$ unzip neurips_bin.zip
+$ wget https://storage.googleapis.com/peoplesanspeople/linux_0.1.0.zip
+$ unzip linux_0.1.0.zip
 ```
 
 2. Install graphics drivers and vulkan libraries. You can skip the following driver installation instructions (i-v) if you already have installed driver and libraries and are not using a cloud VM.
@@ -81,16 +81,16 @@ $ unzip neurips_bin.zip
 3. Run `run.sh` script. See usage of the script for more details on how to run this script:
 
 ```
-$ cd neurips_bin
+$ cd linux_0.1.0
 $ bash run.sh -h
 ```
 For example on a local linux machine:
 ```
-$ bash run.sh run -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+$ bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
 ```
 If you're running in a cloud VM:
 ```
-$ DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/neurips_bin/linux_0.1.0 -f /home/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /home/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
+$ DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
 ```
 4. The dataset will be written to
 ```
