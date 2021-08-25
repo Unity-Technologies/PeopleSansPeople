@@ -96,11 +96,11 @@ $ DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USER
 ```
 4. The dataset will be written to
 ```
-$XDG_CONFIG_HOME/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
+$XDG_CONFIG_HOME/unity3d/DefaultCompany/HDRP\ RenderPeople\ 2020.1.17f1/<UUID>
 ```
 or as an example
 ```
-/home/<USERNAME>/.config/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
+/home/<USERNAME>/.config/unity3d/DefaultCompany/HDRP\ RenderPeople\ 2020.1.17f1/<UUID>
 ```
 where `<UUID>` is the folder where the generated dataset from the last simulation is saved. The dataset output folder will also be shown in the logs in the terminal.
 
