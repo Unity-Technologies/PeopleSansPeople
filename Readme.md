@@ -20,7 +20,7 @@
 ## Dataset Generation Instructions
 
 We provide two binary files for Linux and MacOS. The binary file will generate the synthetic dataset and corresponding labels from the provided `scenarioConfiguration.json` file.
-It is possible to vary the randomizer parameters in `scenarioConfiguration.json` to generate different datasets. 
+It is possible to vary the randomizer parameters in `scenarioConfiguration.json` to generate different datasets.
 For example `totalIterations` is the number of frames generated and `randomSeed` is the generation seed.
 Under the `randomizers` you will find different randomizers and their exposed parameters and ranges. We ship the configuration file with the same randomizer configurations that were used to generate the data on our paper.
 
@@ -37,7 +37,7 @@ For example:
 $ bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/mac_0.1.0/log.txt
 ```
 
-3. On MacOS the dataset will be written to 
+3. On MacOS the dataset will be written to
 ```
 /Users/<USERNAME>/Library/Application Support/com.DefaultCompany.HDRPRenderPeople2020.1.17f1/<UUID>
 ```
@@ -65,11 +65,11 @@ For example:
 ```
 $ bash run.sh run -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
 ```
-If you're running in a cloud VM: 
+If you're running in a cloud VM:
 ```
 DISPLAY=:0 bash run.sh -t Linux -d /Users/<USERNAME>/neurips_bin/linux_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l /Users/<USERNAME>/neurips_bin/linux_0.1.0/log.txt
 ```
-4. The dataset will be written to 
+4. The dataset will be written to
 ```
 $XDG_CONFIG_HOME/unity3d/DefaultCompany/HDRP RenderPeople 2020.1.17f1/<UUID>
 ```
@@ -83,4 +83,12 @@ where `<UUID>` is the folder where the generated dataset from the last simulatio
 
 ## License
 
-PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
+
+
+# psp
+Public slack channel: [#devs-ai-humandet](https://unity.slack.com/messages/C01MW8AJU4F/)
+
+# Converting to public repository
+Any and all Unity software of any description (including components) (1) whose source is to be made available other than under a Unity source code license or (2) in respect of which a public announcement is to be made concerning its inner workings, may be licensed and released only upon the prior approval of Legal.
+The process for that is to access, complete, and submit this [FORM](https://docs.google.com/forms/d/e/1FAIpQLSe3H6PARLPIkWVjdB_zMvuIuIVtrqNiGlEt1yshkMCmCMirvA/viewform).
