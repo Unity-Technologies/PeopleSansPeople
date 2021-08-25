@@ -22,7 +22,7 @@
 We provide two binary files for Linux and MacOS. The binary file will generate the synthetic dataset and corresponding labels from the provided `scenarioConfiguration.json` file.
 It is possible to vary the randomizer parameters in `scenarioConfiguration.json` to generate different datasets. 
 For example `totalIterations` is the number of frames generated and `randomSeed` is the generation seed.
-Under the `randomizers` you will find different randomizers and their exposed parameters and ranges. We ship the configutarion file with the same randomizer configurations that were used to generate the data on our paper.
+Under the `randomizers` you will find different randomizers and their exposed parameters and ranges. We ship the configuration file with the same randomizer configurations that were used to generate the data on our paper.
 
 ## Running the Mac Binary
 
@@ -34,7 +34,7 @@ $ bash run.sh -h
 ```
 For example:
 ```
-bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l
+$ bash run.sh run -t Darwin -d /Users/<USERNAME>/neurips_bin/mac_0.1.0 -f /Users/<USERNAME>/neurips_bin/scenarioConfiguration.json -l
 ```
 
 3. On MacOS the dataset will be written to 
