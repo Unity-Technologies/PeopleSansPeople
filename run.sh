@@ -14,7 +14,9 @@ Commands:
       -l, LOG_FILE_PATH                  Log file path (if no logfile is provided it will create a log.txt file in the current directory)
 
 Example Usage:
-    ./run.sh run -t Darwin -d /Users/username/unity/bin/ -f /Users/username/scenarioConfiguration.json -l /Users/username/log.txt
+    bash run.sh run -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
+    bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
+
 "
 }
 
