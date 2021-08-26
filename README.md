@@ -92,7 +92,7 @@ $ bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/s
 ```
 If you're running in a cloud VM:
 ```
-$ DISPLAY=:0 bash run.sh -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
+$ DISPLAY=:0 bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
 ```
 4. The dataset will be written to
 ```
