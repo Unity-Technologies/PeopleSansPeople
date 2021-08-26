@@ -31,7 +31,7 @@ Under the `randomizers` you will find different randomizers and their exposed pa
 
 ##### Note: The generated dataset will start from index 1, which will be a blank image, since the Perception package starts capture at frame 2. In case the user requests 100 frames, then the frame indices will be from 1 to 101, producing 100 valid, non-blank frames with annotations from indices 2 to 101.
 
-## Running the Mac Binary
+### Running the Mac Binary
 
 1. Download and unzip `mac_0.1.0.zip` file and navigate inside this directory.
 2. Run the script `run.sh`. See usage of the script for more details on how to run this script:
@@ -53,7 +53,7 @@ The dataset output folder will also be shown in the logs in the terminal.
 
 The generated dataset will be in Perception format. The annotations will appear under `DatasetXXXX...` folder in `captures_000.json` and the corresponding images will appear in the `RGBXXXX...` folder. Additionally Perception writes scene metadata to `metrics_XXX.json` files under the `DatasetXXXX...` folder.
 
-## Running Linux Binary
+### Running the Linux Binary
 
 1. Download and unzip `linux_0.1.0.zip` file
 
@@ -79,7 +79,7 @@ $ unzip linux_0.1.0.zip
     3. Now install x-server using the command: `sudo apt-get install xserver-xorg`
     4. Create xorg.conf file: `sudo nvidia-xconfig -a --virtual=1280x1024`
     5. Run xserver: `sudo /usr/bin/X :0 &`
-        - If this gives you error edit `xorg.conf` file and comment or remove `ServerLayout` and `Screen` sections.
+        - If this gives you an error edit the `xorg.conf` file and comment or remove `ServerLayout` and `Screen` sections.
 3. Run `run.sh` script. See usage of the script for more details on how to run this script:
 
 ```
