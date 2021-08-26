@@ -106,8 +106,8 @@ where `<UUID>` is the folder where the generated dataset from the last simulatio
 
 The generated dataset will be in Perception format. The annotations will appear under `DatasetXXXX...` folder in `captures_000.json` and the corresponding images will appear in the `RGBXXXX...` folder. Additionally Perception writes scene metadata to `metrics_XXX.json` files under the `DatasetXXXX...` folder.
 
-# psp
-Public slack channel: [#devs-ai-humandet](https://unity.slack.com/messages/C01MW8AJU4F/)
+# PeopleSansPeople Slack Channel
+Public slack channel: [#devs-ai-peoplesanspeople](https://unity.slack.com/messages/C01MW8AJU4F/)
 
 # Converting to public repository
 Any and all Unity software of any description (including components) (1) whose source is to be made available other than under a Unity source code license or (2) in respect of which a public announcement is to be made concerning its inner workings, may be licensed and released only upon the prior approval of Legal.
