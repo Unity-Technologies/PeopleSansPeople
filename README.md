@@ -70,37 +70,25 @@ $ wget https://storage.googleapis.com/peoplesanspeople/linux_0.1.0.zip
 $ unzip linux_0.1.0.zip
 ```
 
-2. Install graphics drivers and vulkan libraries. You can skip the following driver installation instructions (i-v) if you already have installed driver and libraries and are not using a cloud VM.
-    1. Assuming you have Ubuntu 18.04 on GCE instance with NVIDIA Tesla T4 GPU. Install NVIDIA and CUDA drivers using these [instructions.](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu) 
-    For a GCE VM instance with `n1-standard-8`, `1x NVIDIA Tesla T4 GPU`, `100 GB SSD`, and Ubuntu 18.04 the installation would be:
-    ```
-    $ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
-    $ sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
-    $ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
-    $ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/ /"
-    $ sudo apt-get update
-    $ sudo apt-get -y install cuda
-    # reboot the machine and ensure the nvidia drivers are installed
-    $ sudo nvidia-smi
-    ```
-    2. Install vulkan libraries using the command: `sudo apt install nvidia-settings vulkan-utils`
-    3. Now install x-server using the command: `sudo apt-get install xserver-xorg`
-    4. Create xorg.conf file: `sudo nvidia-xconfig -a --virtual=1280x1024`
-    5. Run xserver: `sudo /usr/bin/X :0 &`
-        - If this gives you an error edit the `xorg.conf` file and comment or remove `ServerLayout` and `Screen` sections.
-
+2. Install the necessary graphics driver and vulkan libraries. For example, assuming you have Ubuntu 16.04/ 18.04/ 20.04 LTS with NVIDIA GPU. You can install the drivers as follows:
+    1. ``sudo add-apt-repository ppa:graphics-drivers/ppa``
+    2. Check available drivers for your GPU: ``ubuntu-drivers devices``
+    3. Install the specific driver: ``sudo apt install <driver_name>``. For 
+       example: ``sudo apt install nvidia-340``
+    4. Restart the system and verify the driver installation by: 
+       ``nvidia-smi``. You should be able to see the GPU info and the driver 
+       version.
+       
+    5. Install vulkan libraries using the command: ``sudo apt install nvidia-settings vulkan-utils``
+   
 3. Run `run.sh` script. See usage of the script for more details on how to run this script:
 ```
 $ cd linux_0.1.0
 $ bash run.sh -h
 ```
-For example on a local linux machine:
+For example:
 ```
 $ bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
-```
-If you're running in a cloud VM:
-```
-$ DISPLAY=:0 bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
 ```
 
 4. The dataset will be written to
