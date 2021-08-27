@@ -49,7 +49,7 @@ $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh run -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
+$ bash run.sh -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
 ```
 
 3. On MacOS the dataset will be written to
@@ -88,7 +88,7 @@ $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh run -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
+$ bash run.sh -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
 ```
 
 4. The dataset will be written to
