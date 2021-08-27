@@ -1,10 +1,10 @@
 {
   "constants": {
     "framesPerIteration": 1,
-    "totalIterations": 300,
+    "totalIterations": 100,
     "instanceCount": 1,
     "instanceIndex": 0,
-    "randomSeed": 539662031,
+    "randomSeed": 42,
     "startFrame": 0
   },
   "randomizers": {
