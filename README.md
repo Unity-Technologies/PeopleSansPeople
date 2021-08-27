@@ -24,7 +24,7 @@ PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE
 
 ## Dataset Generation Instructions
 
-We provide two binary files for Linux and MacOS. 
+We provide two binary files for Linux and macOS. 
 The binary file will generate the synthetic dataset and corresponding labels from the provided `scenarioConfiguration.json` file.
 Datasets can be varied by altering the parameters of the randomizers found in `scenarioConfiguration.json`.
 Key fields:
@@ -52,7 +52,7 @@ For example:
 $ bash run.sh run -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
 ```
 
-3. On MacOS the dataset will be written to
+3. On macOS the dataset will be written to
 ```
 /Users/<USERNAME>/Library/Application Support/com.DefaultCompany.HDRPRenderPeople2020.1.17f1/<UUID>
 ```
