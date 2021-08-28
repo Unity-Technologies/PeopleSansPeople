@@ -36,7 +36,7 @@ Key fields:
 
 ### Running the Mac Binary
 
-1. Download and unzip `mac_0.1.0.zip` file and navigate inside this directory.
+1. Download and unzip `mac_0.1.0.zip` file.
 ```
 $ wget https://storage.googleapis.com/peoplesanspeople/mac_0.1.0.zip
 $ unzip mac_0.1.0.zip
