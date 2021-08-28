@@ -83,7 +83,6 @@ $ unzip linux_0.1.0.zip
    
 3. Run `run.sh` script. See usage of the script for more details on how to run this script:
 ```
-$ cd linux_0.1.0
 $ bash run.sh -h
 ```
 For example:
