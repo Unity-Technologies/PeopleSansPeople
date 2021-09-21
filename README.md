@@ -16,10 +16,10 @@
   <a href="https://scholar.google.com/citations?user=2nA9bVMAAAAJ&hl=en&oi=ao">Alex Zook</a>, 
   <a href="https://www.linkedin.com/in/sauravdhakad/">Saurav Dhakad</a>, 
   <br>
-  <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a>
-  <a href="https://www.linkedin.com/in/pete-parisi-81a179">Pete Parisi</a>
-  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steven Borkman</a>
-  <a href="https://www.linkedin.com/in/jonathan-hogins-1952b919">Jonathan Hogins</a>
+  <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a>,
+  <a href="https://www.linkedin.com/in/pete-parisi-81a179">Pete Parisi</a>,
+  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steven Borkman</a>,
+  <a href="https://www.linkedin.com/in/jonathan-hogins-1952b919">Jonathan Hogins</a>,
   <a href="https://scholar.google.com/citations?hl=en&user=4XuOFfUAAAAJ">Sujoy Ganguly</a>
   <br>
   Unity Technologies
