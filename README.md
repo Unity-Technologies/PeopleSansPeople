@@ -1,19 +1,24 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
-<img src="./images/unity-wide-whiteback.png" align="middle" width="3000"/>
+<img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
 
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 
 <img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
 
 <p align="center">
-  <img src="./images/img1.png" width="20%" />
+  <img src="./images/teaser_images/rgb_1528.png" width="20%" />
  &nbsp; &nbsp;
-  <img src="./images/img1.png" width="20%" />
+  <img src="./images/teaser_images/rgb_2711.png" width="20%" />
  &nbsp; &nbsp;
-  <img src="./images/img1.png" width="20%" />
+  <img src="./images/teaser_images/rgb_8687.png" width="20%" />
+</p>
+<p align="center">
+  <img src="./images/teaser_images/img__anns__1528.png" width="20%" />
  &nbsp; &nbsp;
-  <img src="./images/img1.png" width="20%" />
+  <img src="./images/teaser_images/img__anns__2711.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/teaser_images/img__anns__8687.png" width="20%" />
 </p>
 
 <p align="center">
