@@ -4,6 +4,8 @@
 
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 
+<img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
+
 <p align="center">
   <img src="./images/img1.png" width="20%" />
  &nbsp; &nbsp;
