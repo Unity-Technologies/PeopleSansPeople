@@ -46,10 +46,8 @@ instance and semantic segmentation, and COCO pose labels.
 * This freely available data generator should enable a wide range of research into the emerging field of simulation to 
 real transfer learning in the critical area of human-centric computer vision.
 
-[**Abstract**](https://unity-technologies.github.io/PeopleSansPeople/)
-
 <details>
-  <summary>**Abstract**</summary>
+  <summary>Abstract</summary>
   
 *In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
 However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
