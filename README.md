@@ -2,6 +2,8 @@
 
 <img src="./images/unity-wide-whiteback.png" align="middle" width="3000"/>
 
+[![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
+
 <p align="center">
   <img src="./images/img1.png" width="20%" />
  &nbsp; &nbsp;
