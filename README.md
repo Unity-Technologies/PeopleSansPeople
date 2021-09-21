@@ -1,6 +1,6 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
-<img src="com.unity.perception/Documentation~/images/unity-wide-whiteback.png" align="middle" width="3000"/>
+<img src="./images/unity-wide-whiteback.png" align="middle" width="3000"/>
 
 <p align="center">
   <img src="./images/img1.png" width="20%" />
