@@ -1,5 +1,30 @@
-# PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision
+# PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
+<p align="center">
+  <img src="./images/img1.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/img1.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/img1.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/img1.png" width="20%" />
+</p>
+
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=en&user=umudhIEAAAAJ">Salehe Erfanian Ebadi</a> (Unity Technologies),
+  <a href="https://www.linkedin.com/in/ycjhang">You-Cyuan Jhang</a> (Unity Technologies), 
+  <a href="https://scholar.google.com/citations?user=2nA9bVMAAAAJ&hl=en&oi=ao">Alex Zook</a> (Unity Technologies), 
+  <br>
+  <a href="https://www.linkedin.com/in/sauravdhakad/">Saurav Dhakad</a> (Unity Technologies), 
+  <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a> (Unity Technologies)
+  <a href="https://www.linkedin.com/in/pete-parisi-81a179">Pete Parisi</a> (Unity Technologies)
+  <br>
+  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steven Borkman</a> (Unity Technologies)
+  <a href="https://www.linkedin.com/in/jonathan-hogins-1952b919">Jonathan Hogins</a> (Unity Technologies)
+  <a href="https://scholar.google.com/citations?hl=en&user=4XuOFfUAAAAJ">Sujoy Ganguly</a> (Unity Technologies)
+</p>
+
+<!--
 > **Authors:** Salehe Erfanian Ebadi, You-Cyuan Jhang, Alex Zook, Saurav Dhakad, Adam Crespi, Pete Parisi, Steven Borkman, Jonathan Hogins, Sujoy Ganguly
 > <br />
 > **Authors' affiliation:** Unity Technologies
@@ -7,6 +32,40 @@
 > **Submitted to:** NeurIPS 2021 Track Datasets and Benchmarks Round2
 > <br />
 > **Paper ID:** 54
+-->
+
+## Summary
+* We introduce PeopleSansPeople, a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization.
+* PeopleSansPeople contains simulation-ready 3D human assets, a parameterized lighting and camera system, and generates 2D and 3D bounding box, 
+instance and semantic segmentation, and COCO pose labels. 
+* We use naïve ranges for the domain randomization and generate a synthetic dataset with labels. 
+* We provide some guarantees and analysis of human activities, poses, and context diversity on our synthetic data.
+* We found that pre-training a network using synthetic data and fine-tuning on target real-world data 
+([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83** 
+(COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
+* This freely available data generator should enable a wide range of research into the emerging field of simulation to 
+real transfer learning in the critical area of human-centric computer vision.
+
+[**Abstract**](https://unity-technologies.github.io/PeopleSansPeople/)
+
+<details>
+  <summary>**Abstract**</summary>
+  
+*In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
+However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
+Additionally, privacy concerns may limit the ability to collect more data. 
+An emerging alternative to real-world data that alleviates some of these issues is synthetic data. 
+However, creation of synthetic data generators is incredibly challenging and prevents researchers from exploring their usefulness.
+Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets, 
+a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels. 
+Using PeopleSansPeople, we performed benchmark synthetic data training using a 
+[Detectron2 Keypont R-CNN variant](https://github.com/facebookresearch/detectron2). 
+We found that pre-training a network using synthetic data and fine-tuning on target real-world data 
+([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83** 
+(COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
+This freely available data generator should enable a wide range of research into the emerging field of simulation to 
+real transfer learning in the critical area of human-centric computer vision.*
+</details>
 
 
 ## IMPORTANT NOTICE:
