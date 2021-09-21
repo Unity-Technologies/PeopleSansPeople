@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Erfanian Ebadi"
+  given-names: "Salehe"
+  orcid: "https://orcid.org/0000-0003-2211-7026"
+- family-names: "Jhang"
+  given-names: "You-Cyuan"
+- family-names: "Zook"
+  given-names: "Alex"
+  orcid: "https://orcid.org/0000-0002-0178-5060"
+- family-names: "Dhakad"
+  given-names: "Saurav"
+- family-names: "Crespi"
+  given-names: "Adam"
+- family-names: "Parisi"
+  given-names: "Pete"
+- family-names: "Borkman"
+  given-names: "Steven"
+- family-names: "Jonathan"
+  given-names: "Hogins"
+- family-names: "Ganguly"
+  given-names: "Sujoy"
+title: "PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision"
+version: 0.1.1
+date-released: 2021-09-21
+url: "https://github.com/Unity-Technologies/PeopleSansPeople/"

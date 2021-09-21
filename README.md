@@ -1,9 +1,9 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
 <img src="./images/unity-wide-whiteback.png" align="middle" width="3000"/>
-<br>
+
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
-<br>
+
 <img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
 
 <p align="center">
