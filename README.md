@@ -1,5 +1,7 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
+<img src="com.unity.perception/Documentation~/images/unity-wide-whiteback.png" align="middle" width="3000"/>
+
 <p align="center">
   <img src="./images/img1.png" width="20%" />
  &nbsp; &nbsp;
@@ -44,8 +46,6 @@ instance and semantic segmentation, and COCO pose labels.
 * We found that pre-training a network using synthetic data and fine-tuning on target real-world data 
 ([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83** 
 (COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
-* This freely available data generator should enable a wide range of research into the emerging field of simulation to 
-real transfer learning in the critical area of human-centric computer vision.
 
 <details>
   <summary>Abstract</summary>
@@ -67,13 +67,30 @@ real transfer learning in the critical area of human-centric computer vision.*
 </details>
 
 
-## IMPORTANT NOTICE:
 
-**All the files provided are intended only for the NeurIPS 2021 Track Datasets and Benchmarks Round2 review process.**
-<br />
-**Distribution, making additional copies, or usage for purposes other than reviewing for the NeurIPS conference is strictly prohibited.**
-<br />
-**All rights reserved for Unity Technologies.**
+## Citation
+```
+@article{ebadi2021peoplesanspeople,
+    title={PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision},
+    author={Salehe Erfanian Ebadi and You-Cyuan Jhang and Alex Zook and Saurav Dhakad 
+            and Adam Crespi and Pete Parisi and Steven Borkman and Jonathan Hogins and Sujoy Ganguly},
+    journal={arXiv},
+    year={2021}
+}
+```
+
+## Source code
+Code is available [here](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
+
+## Related links
+- [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
+- [Unity Computer Vision](https://unity.com/products/computer-vision)
+- [Unity's Perception Tutorial](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/Tutorial/TUTORIAL.md)
+- [Unity's Human Pose Labeling and Randomization Tutorial](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/HPTutorial/TUTORIAL.md)
+- [SynthDet Project](https://github.com/Unity-Technologies/SynthDet)
+- [Robotics Object Pose Estimation Demo](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation)
+- [Unity Simulation Smart Camera Outdoor Example](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor)
+
 
 ## License
 
