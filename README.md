@@ -1,9 +1,3 @@
-<img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
-
-[![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
-&nbsp;
-<img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
-
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [NeurIPS 2021](https://arxiv.org/abs/3940169)
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -37,6 +31,12 @@
 <form action="https://arxiv.org/abs/3940169/" method="get" target="_blank"><button type="submit">Paper</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/" method="get" target="_blank"><button type="submit">Source Code</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" method="get" target="_blank"><button type="submit">macOS Binary</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" method="get" target="_blank"><button type="submit">Linux Binary</button></form>
 -->
 
+
+<img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
+
+[![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
+&nbsp;
+<img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
 
 <p align="center">
   <img src="./images/teaser_images/rgb_1528.png" width="20%" />
