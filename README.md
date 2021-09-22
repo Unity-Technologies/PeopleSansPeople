@@ -2,13 +2,13 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7BPSSK8S2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKG4HKTMK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-Y7BPSSK8S2');
+  gtag('config', 'G-ZCKG4HKTMK');
 </script>
 -->
 
