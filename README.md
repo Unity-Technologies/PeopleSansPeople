@@ -164,8 +164,7 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_2243.png" width="14%" />
   
   <img src="./images/more_examples/rgb_2291.png" width="14%" /> 
-</p>
-<p align="center">
+<br>
   <img src="./images/more_examples/rgb_2881.png" width="14%" />
 
   <img src="./images/more_examples/rgb_3099.png" width="14%" />
@@ -177,8 +176,7 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_4257.png" width="14%" />
   
   <img src="./images/more_examples/rgb_4531.png" width="14%" /> 
-</p>
-<p align="center">
+<br>
   <img src="./images/more_examples/rgb_5420.png" width="14%" />
 
   <img src="./images/more_examples/rgb_5789.png" width="14%" />
@@ -190,8 +188,7 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_6339.png" width="14%" />
   
   <img src="./images/more_examples/rgb_6352.png" width="14%" /> 
-</p>
-<p align="center">
+<br>
   <img src="./images/more_examples/rgb_7491.png" width="14%" />
 
   <img src="./images/more_examples/rgb_7638.png" width="14%" />
@@ -203,8 +200,7 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_8867.png" width="14%" />
   
   <img src="./images/more_examples/rgb_8981.png" width="14%" /> 
-</p>
-<p align="center">
+<br>
   <img src="./images/more_examples/rgb_9265.png" width="14%" />
 
   <img src="./images/more_examples/rgb_9383.png" width="14%" />
@@ -216,6 +212,12 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_9591.png" width="14%" />
   
   <img src="./images/more_examples/rgb_9983.png" width="14%" /> 
+<br>
+  Additional images generated with PeopleSansPeople. 
+  Notice the high diversity of lighting, camera perspectives, scene background and occluders, as well as human poses, 
+  their proximity to each other and the camera, and the clothing texture variations. Our domain randomization is done 
+  here with naïvely-chosen ranges with uniform distributions. It is possible to drastically change the look and the 
+  structure of the scenes by varying the randomizer parameters.
 </p>
 
 
