@@ -13,11 +13,14 @@
 -->
 ### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) &nbsp; [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
 
-<button name="button" onclick="https://www.google.com">Paper</button>
-<button name="button" onclick="https://www.google.com">Source Code</button>
-<button name="button" onclick="https://www.google.com">macOS Binary</button>
-<button name="button" onclick="https://www.google.com">Linux Binary</button>
-<form action="https://stackoverflow.com/" method="get" target="_blank"><button type="submit">Click me</button></form>
+<form action="https://arxiv.org/abs/3940169/" method="get" target="_blank"><button type="submit">Paper</button></form>
+&nbsp;
+<form action="https://github.com/Unity-Technologies/PeopleSansPeople/" method="get" target="_blank"><button type="submit">Source Code</button></form>
+&nbsp;
+<form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" method="get" target="_blank"><button type="submit">macOS Binary</button></form>
+&nbsp;
+<form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" method="get" target="_blank"><button type="submit">Linux Binary</button></form>
+
 
 
 
