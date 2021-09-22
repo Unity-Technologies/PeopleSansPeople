@@ -106,82 +106,82 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 
 ## Additional Examples
 <p align="center">
-  <img src="./images/more_examples/rgb_100.png" width="12%" />
+  <img src="./images/more_examples/rgb_100.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_159.png" width="12%" />
+  <img src="./images/more_examples/rgb_159.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_168.png" width="12%" />
+  <img src="./images/more_examples/rgb_168.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_392.png" width="12%" />
+  <img src="./images/more_examples/rgb_392.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_582.png" width="12%" />
+  <img src="./images/more_examples/rgb_582.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_801.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_801.png" width="14%" /> 
 </p>
 <p align="center">
-  <img src="./images/more_examples/rgb_978.png" width="12%" />
+  <img src="./images/more_examples/rgb_978.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_1281.png" width="12%" />
+  <img src="./images/more_examples/rgb_1281.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_1462.png" width="12%" />
+  <img src="./images/more_examples/rgb_1462.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_2178.png" width="12%" />
+  <img src="./images/more_examples/rgb_2178.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_2243.png" width="12%" />
+  <img src="./images/more_examples/rgb_2243.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_2291.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_2291.png" width="14%" /> 
 </p>
 <p align="center">
-  <img src="./images/more_examples/rgb_2881.png" width="12%" />
+  <img src="./images/more_examples/rgb_2881.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_3099.png" width="12%" />
+  <img src="./images/more_examples/rgb_3099.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_3335.png" width="12%" />
+  <img src="./images/more_examples/rgb_3335.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_3877.png" width="12%" />
+  <img src="./images/more_examples/rgb_3877.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_4257.png" width="12%" />
+  <img src="./images/more_examples/rgb_4257.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_4531.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_4531.png" width="14%" /> 
 </p>
 <p align="center">
-  <img src="./images/more_examples/rgb_5420.png" width="12%" />
+  <img src="./images/more_examples/rgb_5420.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_5789.png" width="12%" />
+  <img src="./images/more_examples/rgb_5789.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_5935.png" width="12%" />
+  <img src="./images/more_examples/rgb_5935.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_5944.png" width="12%" />
+  <img src="./images/more_examples/rgb_5944.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_6339.png" width="12%" />
+  <img src="./images/more_examples/rgb_6339.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_6352.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_6352.png" width="14%" /> 
 </p>
 <p align="center">
-  <img src="./images/more_examples/rgb_7491.png" width="12%" />
+  <img src="./images/more_examples/rgb_7491.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_7638.png" width="12%" />
+  <img src="./images/more_examples/rgb_7638.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_7763.png" width="12%" />
+  <img src="./images/more_examples/rgb_7763.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_8023.png" width="12%" />
+  <img src="./images/more_examples/rgb_8023.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_8867.png" width="12%" />
+  <img src="./images/more_examples/rgb_8867.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_8981.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_8981.png" width="14%" /> 
 </p>
 <p align="center">
-  <img src="./images/more_examples/rgb_9265.png" width="12%" />
+  <img src="./images/more_examples/rgb_9265.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_9383.png" width="12%" />
+  <img src="./images/more_examples/rgb_9383.png" width="14%" />
 
-  <img src="./images/more_examples/rgb_9471.png" width="12%" />
+  <img src="./images/more_examples/rgb_9471.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_9480.png" width="12%" />
+  <img src="./images/more_examples/rgb_9480.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_9591.png" width="12%" />
+  <img src="./images/more_examples/rgb_9591.png" width="14%" />
   
-  <img src="./images/more_examples/rgb_9983.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_9983.png" width="14%" /> 
 </p>
 
 
