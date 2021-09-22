@@ -12,7 +12,11 @@
 </script>
 -->
 
-<button name="button" onclick="http://www.google.com">Click me</button>
+<button name="button" onclick="https://www.google.com">Paper</button>
+<button name="button" onclick="https://www.google.com">Source Code</button>
+<button name="button" onclick="https://www.google.com">macOS Binary</button>
+<button name="button" onclick="https://www.google.com">Linux Binary</button>
+
 
 <img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
 
