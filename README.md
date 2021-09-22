@@ -152,8 +152,7 @@ over training from scratch on COCO. For each dataset size we show the results of
   <img src="./images/more_examples/rgb_582.png" width="14%" />
   
   <img src="./images/more_examples/rgb_801.png" width="14%" /> 
-</p>
-<p align="center">
+<br>
   <img src="./images/more_examples/rgb_978.png" width="14%" />
 
   <img src="./images/more_examples/rgb_1281.png" width="14%" />
