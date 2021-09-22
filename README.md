@@ -11,8 +11,18 @@
   gtag('config', 'G-ZCKG4HKTMK');
 </script>
 -->
-<p align="center">
+
 ### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) &nbsp; [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
+
+
+<p align="center">
+  <a href="https://arxiv.org/abs/3940169">Paper</a>
+  <br>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople">Source Code</a>
+  <br>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip">macOS Binary</a>
+  <br>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip">Linux Binary</a>
 </p>
 
 <!--
