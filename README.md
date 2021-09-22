@@ -109,20 +109,20 @@ instance and semantic segmentation, and COCO pose labels.
 <details>
   <summary>Abstract (click to expand)</summary>
   
-    In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
-    However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
-    Additionally, privacy concerns may limit the ability to collect more data. 
-    An emerging alternative to real-world data that alleviates some of these issues is synthetic data. 
-    However, creation of synthetic data generators is incredibly challenging and prevents researchers from exploring their usefulness.
-    Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets, 
-    a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels. 
-    Using PeopleSansPeople, we performed benchmark synthetic data training using a 
-    [Detectron2 Keypont R-CNN variant](https://github.com/facebookresearch/detectron2). 
-    We found that pre-training a network using synthetic data and fine-tuning on target real-world data 
-    ([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83** 
-    (COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
-    This freely available data generator should enable a wide range of research into the emerging field of simulation to 
-    real transfer learning in the critical area of human-centric computer vision.
+*In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets.
+However, these datasets had no guarantees or analysis of human activities, poses, or context diversity.
+Additionally, privacy concerns may limit the ability to collect more data.
+An emerging alternative to real-world data that alleviates some of these issues is synthetic data.
+However, creation of synthetic data generators is incredibly challenging and prevents researchers from exploring their usefulness.
+Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets,
+a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels.
+Using PeopleSansPeople, we performed benchmark synthetic data training using a
+[Detectron2 Keypont R-CNN variant](https://github.com/facebookresearch/detectron2).
+We found that pre-training a network using synthetic data and fine-tuning on target real-world data
+([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83**
+(COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
+This freely available data generator should enable a wide range of research into the emerging field of simulation to
+real transfer learning in the critical area of human-centric computer vision.*
 </details>
 
 ## What does PeopleSansPeople provide?
