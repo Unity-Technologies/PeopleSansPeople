@@ -14,16 +14,17 @@
 
 ### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) &nbsp; [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
 
-
-<p align="center">
-  <a href="https://arxiv.org/abs/3940169" style="font-size: 100px; text-decoration: none">Paper</a>
+<!--
+<p align="center" style="font-size: 500px; text-decoration: none">
+  <a href="https://arxiv.org/abs/3940169" style="font-size: 500px; text-decoration: none">Paper</a>
   &nbsp;
   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 500px; text-decoration: none">Source Code</a>
   &nbsp;
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" style="font-size: 100px; text-decoration: none">macOS Binary</a>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" style="font-size: 500px; text-decoration: none">macOS Binary</a>
   &nbsp;
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" style="font-size: 100px; text-decoration: none">Linux Binary</a>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" style="font-size: 500px; text-decoration: none">Linux Binary</a>
 </p>
+-->
 
 <!--
 <form action="https://arxiv.org/abs/3940169/" method="get" target="_blank"><button type="submit">Paper</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/" method="get" target="_blank"><button type="submit">Source Code</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" method="get" target="_blank"><button type="submit">macOS Binary</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" method="get" target="_blank"><button type="submit">Linux Binary</button></form>
