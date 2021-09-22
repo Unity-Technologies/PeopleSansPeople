@@ -116,6 +116,17 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 |             64115 |  56.73  |     57.44    |  +0.71 |    65.12    |     66.83    |  +1.71 |
 
 
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
+
+
 
 ## Additional Examples
 <p align="center">
