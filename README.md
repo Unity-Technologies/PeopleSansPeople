@@ -62,10 +62,11 @@
 > **Paper ID:** 54
 -->
 
-> #### *People + Sans (Middle English for “without”) + People*
 > 
-> A data generator for a few human-centric computer vision tasks without needing real-world human data.
-
+> ### *People + Sans (Middle English for “without”) + People*
+> 
+> #### A data generator for a few human-centric computer vision tasks without needing real-world human data.
+> 
 
 ## Summary
 * We introduce PeopleSansPeople, a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization.
