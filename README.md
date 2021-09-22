@@ -135,8 +135,9 @@ real transfer learning in the critical area of human-centric computer vision.*
 > * Primitive occluders/distractors
 > * All packaged in a macOS and Linux binary
 
-<table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
 A comparison between PeopleSansPeople and the COCO person dataset.
+<table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
+
 
 ## Generated data and labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
@@ -160,6 +161,17 @@ over training from scratch on COCO. For each dataset size we show the results of
 
 <table><thead><tr><th></th><th colspan="3">bbox AP</th><th colspan="3">keypoint AP</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td></tr><tr><td>641</td><td>13.82</td><td>42.58</td><td>+28.76</td><td>7.47</td><td>46.40</td><td>+38.93</td></tr><tr><td>6411</td><td>37.82</td><td>49.04</td><td>+11.22</td><td>39.48</td><td>55.21</td><td>+15.73</td></tr><tr><td>32057</td><td>52.15</td><td>55.04</td><td>+2.89</td><td>58.68</td><td>63.38</td><td>+4.70</td></tr><tr><td>64115</td><td>56.73</td><td>57.44</td><td>+0.71</td><td>65.12</td><td>66.83</td><td>+1.71</td></tr></tbody></table>
 
+## Unity Shader Graph randomizer for simulated clothing appearance diversity
+<p align="center">
+  <img src="./images/shadergraph_renderpeople/renderpeople_material.png" width="80%" />
+  <br>
+  <img src="./images/shadergraph_renderpeople/renderpeople_shader.png" width="80%" />
+  <br>
+  Top row: our 3D human assets from RenderPeople with their original clothing textures.
+  <br>
+  Bottom row: using Shader Graph randomizers we are able to swap out clothing texture albedos, masks, and normals,
+  yielding very diverse-looking textures on the clothing, without needing to swap out the clothing items themselves.
+</p>
 
 ## Additional examples
 <p align="center">
