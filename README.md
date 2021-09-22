@@ -107,25 +107,79 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 ## Results
 
 
-|                     | bbox AP                        ||| keypoint AP                       |||
-| :------------------:|-------: |------------: |-------:|-----------:|------------:|-------:|
-| size of real data   | scratch | w/ pre-train | \Delta  |   scratch   | w/ pre-train | \Delta |
-|               641   |  13.82  |     42.58    | +28.76  |     7.47    |     46.40    | +38.93 |
-|              6411   |  37.82  |     49.04    | +11.22  |    39.48    |     55.21    | +15.73 |
-|             32057   |  52.15  |     55.04    |  +2.89  |    58.68    |     63.38    |  +4.70 |
-|             64115   |  56.73  |     57.44    |  +0.71  |    65.12    |     66.83    |  +1.71 |
+|                   | bbox AP | bbox AP      | bbox AP| keypoint AP | keypoint AP  | keypoint AP|
+|------------------:|:-------:|:------------:|-------:|:-----------:|:------------:|-------:|
+| size of real data | scratch | w/ pre-train | \Delta |   scratch   | w/ pre-train | \Delta |
+|               641 |  13.82  |     42.58    | +28.76 |     7.47    |     46.40    | +38.93 |
+|              6411 |  37.82  |     49.04    | +11.22 |    39.48    |     55.21    | +15.73 |
+|             32057 |  52.15  |     55.04    |  +2.89 |    58.68    |     63.38    |  +4.70 |
+|             64115 |  56.73  |     57.44    |  +0.71 |    65.12    |     66.83    |  +1.71 |
 
-|              a | b | c |
-| -----------------: | --------------: | ---------: |
-|         d |          e              ||
-| ^^                 |          f |   g |
-| h |          i |      j |
-|  k |          l              ||
-| ^^                 |          m |     n |
-| ^^                 |          o |      p |
-|                               q        |||
-
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-dvpl"></th>
+    <th class="tg-c3ow" colspan="3">bbox AP</th>
+    <th class="tg-c3ow" colspan="3">keypoint AP</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-dvpl">size of real data</td>
+    <td class="tg-c3ow">scratch</td>
+    <td class="tg-c3ow">w/ pre-train</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal">Δ</span></td>
+    <td class="tg-c3ow">scratch</td>
+    <td class="tg-c3ow">w/ pre-train</td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal">Δ</span></td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">641</td>
+    <td class="tg-c3ow">13.82</td>
+    <td class="tg-c3ow">42.58</td>
+    <td class="tg-dvpl">+28.76</td>
+    <td class="tg-c3ow">7.47</td>
+    <td class="tg-c3ow">46.40</td>
+    <td class="tg-dvpl">+38.93</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">6411</td>
+    <td class="tg-c3ow">37.82</td>
+    <td class="tg-c3ow">49.04</td>
+    <td class="tg-dvpl">+11.22</td>
+    <td class="tg-c3ow">39.48</td>
+    <td class="tg-c3ow">55.21</td>
+    <td class="tg-dvpl">+15.73</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">32057</td>
+    <td class="tg-c3ow">52.15</td>
+    <td class="tg-c3ow">55.04</td>
+    <td class="tg-dvpl">+2.89</td>
+    <td class="tg-c3ow">58.68</td>
+    <td class="tg-c3ow">63.38</td>
+    <td class="tg-dvpl">+4.70</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">64115</td>
+    <td class="tg-c3ow">56.73</td>
+    <td class="tg-c3ow">57.44</td>
+    <td class="tg-dvpl">+0.71</td>
+    <td class="tg-c3ow">65.12</td>
+    <td class="tg-c3ow">66.83</td>
+    <td class="tg-dvpl">+1.71</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Additional Examples
