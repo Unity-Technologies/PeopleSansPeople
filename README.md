@@ -107,7 +107,7 @@ instance and semantic segmentation, and COCO pose labels.
 (COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
 
 <details>
-  <summary>Abstract</summary>
+  <summary>Abstract (click to expand)</summary>
   
 *In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
 However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
@@ -125,6 +125,17 @@ This freely available data generator should enable a wide range of research into
 real transfer learning in the critical area of human-centric computer vision.*
 </details>
 
+## What does PeopleSansPeople provide?
+> * 28 parameterized simulation-ready 3D human assets
+> * 39 diverse animation clips
+> * 21,952 unique clothing textures (from 28 albedos, 28 masks, and 28 normals)
+> * rameterized lighting
+> * Parameterized camera system
+> * Natural backgrounds
+> * Primitive occluders/distractors
+> * All packaged in a macOS and Linux binary
+
+
 ## Generated data and labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
 In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
@@ -137,8 +148,13 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
   &nbsp; &nbsp;
   <img src="./images/label_fig/4.png" width="20%" />
   <br>
-  Generated image and corresponding labels.
+  Generated image and corresponding labels: 2D bounding box, human keypoints, semantic and instance segmentation masks in COCO format. 
+  3D bounding box annotations are provided separately in [Unity Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
 </p>
+
+<table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
+<br>
+A comparison between PeopleSansPeople and the COCO person dataset.
 
 ## Results
 Here we show a comparison of gains obtained from pre-training on our synthetic data and fune-tuning on COCO person class
