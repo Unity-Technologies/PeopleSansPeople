@@ -20,18 +20,22 @@
 
 <p align="center">
   <img src="./images/teaser_images/rgb_1528.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/teaser_images/rgb_2711.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/teaser_images/rgb_8687.png" width="20%" />
 </p>
 <p align="center">
   <img src="./images/teaser_images/img__anns__1528.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/teaser_images/img__anns__2711.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/teaser_images/img__anns__8687.png" width="20%" />
 </p>
+
+<!--
+ &nbsp; &nbsp;
+-->
 
 <p align="center">
   <a href="https://scholar.google.com/citations?hl=en&user=umudhIEAAAAJ">Salehe Erfanian Ebadi</a>,
@@ -92,9 +96,9 @@ PeopleSansPeople produces the following types of labels in COCO format: 2D bound
 In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
 <p align="center">
   <img src="./images/label_fig/1.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/label_fig/2.png" width="20%" />
- &nbsp; &nbsp;
+
   <img src="./images/label_fig/3.png" width="20%" />
   
   <img src="./images/label_fig/4.png" width="20%" />
@@ -102,31 +106,84 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 
 ## Additional Examples
 <p align="center">
-  <img src="./images/teaser_images/rgb_3099.png" width="12%" />
- &nbsp; &nbsp;
-  <img src="./images/teaser_images/rgb_4531.png" width="12%" />
- &nbsp; &nbsp;
-  <img src="./images/teaser_images/rgb_5935.png" width="12%" />
+  <img src="./images/more_examples/rgb_100.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_159.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_168.png" width="12%" />
   
-  <img src="./images/teaser_images/rgb_6339.png" width="12%" />
+  <img src="./images/more_examples/rgb_392.png" width="12%" />
   
-  <img src="./images/teaser_images/rgb_9265.png" width="12%" />
+  <img src="./images/more_examples/rgb_582.png" width="12%" />
   
-  <img src="./images/teaser_images/rgb_9591.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_801.png" width="12%" /> 
 </p>
 <p align="center">
-  <img src="./images/teaser_images/img__anns__3099.png" width="12%" />
- &nbsp; &nbsp;
-  <img src="./images/teaser_images/img__anns__4531.png" width="12%" />
- &nbsp; &nbsp;
-  <img src="./images/teaser_images/img__anns__5935.png" width="12%" />
+  <img src="./images/more_examples/rgb_978.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_1281.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_1462.png" width="12%" />
   
-  <img src="./images/teaser_images/img__anns__6339.png" width="12%" />
-  q
-  <img src="./images/teaser_images/img__anns__9265.png" width="12%" />
+  <img src="./images/more_examples/rgb_2178.png" width="12%" />
   
-  <img src="./images/teaser_images/img__anns__9591.png" width="12%" /> 
+  <img src="./images/more_examples/rgb_2243.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_2291.png" width="12%" /> 
 </p>
+<p align="center">
+  <img src="./images/more_examples/rgb_2881.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_3099.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_3335.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_3877.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_4257.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_4531.png" width="12%" /> 
+</p>
+<p align="center">
+  <img src="./images/more_examples/rgb_5420.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_5789.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_5935.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_5944.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_6339.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_6352.png" width="12%" /> 
+</p>
+<p align="center">
+  <img src="./images/more_examples/rgb_7491.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_7638.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_7763.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_8023.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_8867.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_8981.png" width="12%" /> 
+</p>
+<p align="center">
+  <img src="./images/more_examples/rgb_9265.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_9383.png" width="12%" />
+
+  <img src="./images/more_examples/rgb_9471.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_9480.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_9591.png" width="12%" />
+  
+  <img src="./images/more_examples/rgb_9983.png" width="12%" /> 
+</p>
+
 
 
 ## Citation
