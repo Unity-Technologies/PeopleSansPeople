@@ -104,6 +104,18 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
   <img src="./images/label_fig/4.png" width="20%" />
 </p>
 
+## Results
+| dataset       |           dataset size | training steps |            AP            | $\textrm{AP}^{\textrm{\textit{IoU=.50}}}$ | $\textrm{AP}^{\textrm{\textit{IoU=.75}}}$ | $\textrm{AP}^{\textrm{\textit{large}}}$ | $\textrm{AP}^{\textrm{\textit{medium}}}$ |   |
+|---------------|-----------------------:|---------------:|:------------------------:|:-----------------------------------------:|:-----------------------------------------:|:---------------------------------------:|:----------------------------------------:|:-:|
+| COCO dataset  |                    641 |           5280 |           7.47           |                   23.26                   |                    3.10                   |                   8.85                  |                   6.88                   |   |
+|               |                   6411 |          40000 |           39.48          |                   69.04                   |                   38.66                   |                  44.87                  |                   36.36                  |   |
+|               |                  32057 |         168252 |           58.68          |                   83.51                   |                   63.10                   |                  65.41                  |                   55.15                  |   |
+|               |                  64115 |         577008 |      \textbf{65.12}      |               \textbf{86.73}              |               \textbf{70.97}              |              \textbf{72.64}             |              \textbf{61.15}              |   |
+| Synth dataset | $\text{4.9}\times10^3$ |                |      1.89 $\pm$ 0.29     |              4.64 $\pm$ 0.31              |              1.26 $\pm$ 0.29              |             1.92 $\pm$ 0.30             |              2.22 $\pm$ 0.15             |   |
+|               |  $\text{49}\times10^3$ |                | \textbf{5.47 $\pm$ 0.10} |         \textbf{11.77 $\pm$ 0.28}         |          \textbf{4.54 $\pm$ 0.19}         |         \textbf{5.50 $\pm$ 0.44}        |         \textbf{6.42 $\pm$ 0.16}         |   |
+|               | $\text{245}\times10^3$ |                |      4.78 $\pm$ 0.24     |              9.74 $\pm$ 0.55              |              4.05 $\pm$ 0.13              |             4.86 $\pm$ 0.23             |              5.74 $\pm$ 0.32             |   |
+|               | $\text{490}\times10^3$ |                |      3.97 $\pm$ 0.61     |              8.23 $\pm$ 1.37              |              3.33 $\pm$ 0.50              |             4.27 $\pm$ 0.75             |              4.69 $\pm$ 0.54             |   |
+
 ## Additional Examples
 <p align="center">
   <img src="./images/more_examples/rgb_100.png" width="14%" />
