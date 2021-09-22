@@ -87,6 +87,19 @@ This freely available data generator should enable a wide range of research into
 real transfer learning in the critical area of human-centric computer vision.*
 </details>
 
+## Generated Data and Labels
+PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
+In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
+<p align="center">
+  <img src="./images/label_fig/1.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/label_fig/2.png" width="20%" />
+ &nbsp; &nbsp;
+  <img src="./images/label_fig/3.png" width="20%" />
+  
+  <img src="./images/label_fig/4.png" width="20%" />
+</p>
+
 
 ## Citation
 ```
