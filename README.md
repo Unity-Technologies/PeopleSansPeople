@@ -213,9 +213,9 @@ over training from scratch on COCO. For each dataset size we show the results of
 ## Source code
 Code is available [here](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
 
-Unity Environment Template [coming soon]()
+Unity Environment Template [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
 
-Unity Tutorial [coming soon]()
+Unity Tutorial [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
 
 
 ## Related links
