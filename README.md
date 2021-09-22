@@ -109,7 +109,7 @@ instance and semantic segmentation, and COCO pose labels.
 <details>
   <summary>Abstract (click to expand)</summary>
   
-*In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets.
+_In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets.
 However, these datasets had no guarantees or analysis of human activities, poses, or context diversity.
 Additionally, privacy concerns may limit the ability to collect more data.
 An emerging alternative to real-world data that alleviates some of these issues is synthetic data.
@@ -122,7 +122,7 @@ We found that pre-training a network using synthetic data and fine-tuning on tar
 ([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83**
 (COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
 This freely available data generator should enable a wide range of research into the emerging field of simulation to
-real transfer learning in the critical area of human-centric computer vision.*
+real transfer learning in the critical area of human-centric computer vision._
 </details>
 
 ## What does PeopleSansPeople provide?
