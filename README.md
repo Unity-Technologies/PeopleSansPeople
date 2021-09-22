@@ -44,13 +44,13 @@
   <img src="./images/teaser_images/rgb_2711.png" width="20%" />
 
   <img src="./images/teaser_images/rgb_8687.png" width="20%" />
-</p>
-<p align="center">
+<br>
   <img src="./images/teaser_images/img__anns__1528.png" width="20%" />
 
   <img src="./images/teaser_images/img__anns__2711.png" width="20%" />
 
   <img src="./images/teaser_images/img__anns__8687.png" width="20%" />
+  Top row: PeopleSansPeople generated images. Bottom row: corresponding COCO-style bounding box and keypoint labels.
 </p>
 
 <!--
