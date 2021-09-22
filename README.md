@@ -100,6 +100,34 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
   <img src="./images/label_fig/4.png" width="20%" />
 </p>
 
+## Additional Examples
+<p align="center">
+  <img src="./images/teaser_images/rgb_3099.png" width="16%" />
+ &nbsp; &nbsp;
+  <img src="./images/teaser_images/rgb_4531.png" width="16%" />
+ &nbsp; &nbsp;
+  <img src="./images/teaser_images/rgb_5935.png" width="16%" />
+  
+  <img src="./images/teaser_images/rgb_6339.png" width="16%" />
+  
+  <img src="./images/teaser_images/rgb_9265.png" width="16%" />
+  
+  <img src="./images/teaser_images/rgb_9591.png" width="16%" /> 
+</p>
+<p align="center">
+  <img src="./images/teaser_images/img__anns__3099.png" width="16%" />
+ &nbsp; &nbsp;
+  <img src="./images/teaser_images/img__anns__4531.png" width="16%" />
+ &nbsp; &nbsp;
+  <img src="./images/teaser_images/img__anns__5935.png" width="16%" />
+  
+  <img src="./images/teaser_images/img__anns__6339.png" width="16%" />
+  
+  <img src="./images/teaser_images/img__anns__9265.png" width="16%" />
+  
+  <img src="./images/teaser_images/img__anns__9591.png" width="16%" /> 
+</p>
+
 
 ## Citation
 ```
