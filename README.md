@@ -106,71 +106,7 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 
 ## Results
 
-
-|                   | bbox AP | bbox AP      | bbox AP| keypoint AP | keypoint AP  | keypoint AP|
-|------------------:|:-------:|:------------:|-------:|:-----------:|:------------:|-------:|
-| size of real data | scratch | w/ pre-train | \Delta |   scratch   | w/ pre-train | \Delta |
-|               641 |  13.82  |     42.58    | +28.76 |     7.47    |     46.40    | +38.93 |
-|              6411 |  37.82  |     49.04    | +11.22 |    39.48    |     55.21    | +15.73 |
-|             32057 |  52.15  |     55.04    |  +2.89 |    58.68    |     63.38    |  +4.70 |
-|             64115 |  56.73  |     57.44    |  +0.71 |    65.12    |     66.83    |  +1.71 |
-
-<table>
-<thead>
-  <tr>
-    <th></th>
-    <th colspan="3">bbox AP</th>
-    <th colspan="3">keypoint AP</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>size of real data</td>
-    <td>scratch</td>
-    <td>w/ pre-train</td>
-    <td>Δ</td>
-    <td>scratch</td>
-    <td>w/ pre-train</td>
-    <td>Δ</td>
-  </tr>
-  <tr>
-    <td>641</td>
-    <td>13.82</td>
-    <td>42.58</td>
-    <td>+28.76</td>
-    <td>7.47</td>
-    <td>46.40</td>
-    <td>+38.93</td>
-  </tr>
-  <tr>
-    <td>6411</td>
-    <td>37.82</td>
-    <td>49.04</td>
-    <td>+11.22</td>
-    <td>39.48</td>
-    <td>55.21</td>
-    <td>+15.73</td>
-  </tr>
-  <tr>
-    <td>32057</td>
-    <td>52.15</td>
-    <td>55.04</td>
-    <td>+2.89</td>
-    <td>58.68</td>
-    <td>63.38</td>
-    <td>+4.70</td>
-  </tr>
-  <tr>
-    <td>64115</td>
-    <td>56.73</td>
-    <td>57.44</td>
-    <td>+0.71</td>
-    <td>65.12</td>
-    <td>66.83</td>
-    <td>+1.71</td>
-  </tr>
-</tbody>
-</table>
+<table><thead><tr><th></th><th colspan="3">bbox AP</th><th colspan="3">keypoint AP</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td></tr><tr><td>641</td><td>13.82</td><td>42.58</td><td>+28.76</td><td>7.47</td><td>46.40</td><td>+38.93</td></tr><tr><td>6411</td><td>37.82</td><td>49.04</td><td>+11.22</td><td>39.48</td><td>55.21</td><td>+15.73</td></tr><tr><td>32057</td><td>52.15</td><td>55.04</td><td>+2.89</td><td>58.68</td><td>63.38</td><td>+4.70</td></tr><tr><td>64115</td><td>56.73</td><td>57.44</td><td>+0.71</td><td>65.12</td><td>66.83</td><td>+1.71</td></tr></tbody></table>
 
 
 ## Additional Examples
