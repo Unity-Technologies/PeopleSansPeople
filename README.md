@@ -78,7 +78,7 @@
 > **Paper ID:** 54
 -->
 
-## 
+---
 
 >
 > ### *People + Sans (Middle English for “without”) + People*
@@ -86,12 +86,15 @@
 > #### A data generator for a few human-centric computer vision tasks without needing real-world human data.
 > 
 
-## 
+---
+
 <img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
 
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 &nbsp;
 <img src="https://img.shields.io/badge/unity-2020.1.17f1-green.svg?style=flat-square" alt="unity 2020.1.17f1">
+
+---
 
 ## Summary
 * We introduce PeopleSansPeople, a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization.
