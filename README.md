@@ -16,13 +16,13 @@
 
 
 <p align="center">
-  <a href="https://arxiv.org/abs/3940169">Paper</a>
-  <br>
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople">Source Code</a>
-  <br>
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip">macOS Binary</a>
-  <br>
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip">Linux Binary</a>
+  <a href="https://arxiv.org/abs/3940169" style="font-size: 100px;>Paper</a>
+  &nbsp;
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 100px;>Source Code</a>
+  &nbsp;
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" style="font-size: 100px;>macOS Binary</a>
+  &nbsp;
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" style="font-size: 100px;>Linux Binary</a>
 </p>
 
 <!--
