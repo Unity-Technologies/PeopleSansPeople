@@ -11,12 +11,14 @@
   gtag('config', 'G-ZCKG4HKTMK');
 </script>
 -->
-### [Paper](https://arxiv.org/abs/3940169) [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
+### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) &nbsp; [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
 
 <button name="button" onclick="https://www.google.com">Paper</button>
 <button name="button" onclick="https://www.google.com">Source Code</button>
 <button name="button" onclick="https://www.google.com">macOS Binary</button>
 <button name="button" onclick="https://www.google.com">Linux Binary</button>
+<form action="https://stackoverflow.com/" method="get" target="_blank"><button type="submit">Click me</button></form>
+
 
 
 <img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
