@@ -107,7 +107,7 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 ## Results
 
 
-|                   | bbox AP |              |        | keypoint AP |              |        |
+|                   | bbox AP                       ||| keypoint AP                       |||
 |------------------:|:-------:|:------------:|-------:|:-----------:|:------------:|-------:|
 | size of real data | scratch | w/ pre-train | \Delta |   scratch   | w/ pre-train | \Delta |
 |               641 |  13.82  |     42.58    | +28.76 |     7.47    |     46.40    | +38.93 |
