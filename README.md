@@ -78,12 +78,15 @@
 > **Paper ID:** 54
 -->
 
-> 
+## 
+
+>
 > ### *People + Sans (Middle English for “without”) + People*
 > 
 > #### A data generator for a few human-centric computer vision tasks without needing real-world human data.
 > 
 
+## 
 <img src="./images/unity/unity-wide-whiteback.png" align="middle" width="3000"/>
 
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
