@@ -51,7 +51,9 @@
 
   <img src="./images/teaser_images/img__anns__8687.png" width="20%" />
 <br>
-  Top row: PeopleSansPeople generated images. Bottom row: corresponding COCO-style bounding box and keypoint labels.
+  Top row: PeopleSansPeople generated images. 
+<br>
+  Bottom row: corresponding COCO-style bounding box and keypoint labels.
 </p>
 
 <!--
