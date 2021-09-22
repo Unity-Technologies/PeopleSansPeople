@@ -117,7 +117,7 @@ This freely available data generator should enable a wide range of research into
 real transfer learning in the critical area of human-centric computer vision.*
 </details>
 
-## Generated Data and Labels
+## Generated data and labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
 In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
 <p align="center">
@@ -139,7 +139,7 @@ over training from scratch on COCO. For each dataset size we show the results of
 <table><thead><tr><th></th><th colspan="3">bbox AP</th><th colspan="3">keypoint AP</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td></tr><tr><td>641</td><td>13.82</td><td>42.58</td><td>+28.76</td><td>7.47</td><td>46.40</td><td>+38.93</td></tr><tr><td>6411</td><td>37.82</td><td>49.04</td><td>+11.22</td><td>39.48</td><td>55.21</td><td>+15.73</td></tr><tr><td>32057</td><td>52.15</td><td>55.04</td><td>+2.89</td><td>58.68</td><td>63.38</td><td>+4.70</td></tr><tr><td>64115</td><td>56.73</td><td>57.44</td><td>+0.71</td><td>65.12</td><td>66.83</td><td>+1.71</td></tr></tbody></table>
 
 
-## Additional Examples
+## Additional examples
 <p align="center">
   <img src="./images/more_examples/rgb_100.png" width="14%" />
 
@@ -251,5 +251,4 @@ Unity Tutorial [coming soon](<https://github.com/Unity-Technologies/PeopleSansPe
 
 
 ## License
-
 PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
