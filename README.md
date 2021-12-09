@@ -54,7 +54,7 @@
 -->
 
 <p align="center">
-  <a href="https://scholar.google.com/citations?hl=en&user=umudhIEAAAAJ">Salehe Erfanian Ebadi</a>,
+  <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
   <a href="https://www.linkedin.com/in/ycjhang">You-Cyuan Jhang</a>, 
   <a href="https://scholar.google.com/citations?user=2nA9bVMAAAAJ&hl=en&oi=ao">Alex Zook</a>, 
   <a href="https://www.linkedin.com/in/sauravdhakad/">Saurav Dhakad</a>, 
