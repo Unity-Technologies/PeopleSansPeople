@@ -13,7 +13,7 @@
 -->
 
 <!--
-### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip) &nbsp; [Linux Binary](https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip)
+### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip) &nbsp; [Linux Binary](https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip)
 -->
 
 <p align="center">
