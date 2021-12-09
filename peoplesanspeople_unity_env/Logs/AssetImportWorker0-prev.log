@@ -1,0 +1,864 @@
+Unity Editor version:    2020.3.20f1 (41c4e627c95f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60165
+Successfully changed project path to: /Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose
+/Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 105.06 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-08 12:48:24.279 Unity[82884:39358157] DELL U2718Q preferred device: AMD Radeon Pro 5500M (high power)
+2021-12-08 12:48:24.279 Unity[82884:39358157] Metal devices available: 2
+2021-12-08 12:48:24.279 Unity[82884:39358157] 0: AMD Radeon Pro 5500M (high power)
+2021-12-08 12:48:24.279 Unity[82884:39358157] 1: Intel(R) UHD Graphics 630 (low power)
+2021-12-08 12:48:24.279 Unity[82884:39358157] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000739 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 101.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2068ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 113.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.Perception.Visualizer.PythonForUnityInstaller.CheckIfPackageInstalled () [0x00066] in /Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose/Library/PackageCache/com.unity.perception@0.9.0-preview.2/Editor/Visualizer/PythonForUnityInstaller.cs:53 
+  at UnityEditor.Perception.Visualizer.PythonForUnityInstaller.Add () [0x00000] in /Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose/Library/PackageCache/com.unity.perception@0.9.0-preview.2/Editor/Visualizer/PythonForUnityInstaller.cs:20 
+  at UnityEditor.Perception.Visualizer.PythonForUnityInstaller..cctor () [0x00000] in /Users/saleheerfanianebadi/Unity_Projects/unity_psp_unity_branded_base_fix_character_ear_nose/Library/PackageCache/com.unity.perception@0.9.0-preview.2/Editor/Visualizer/PythonForUnityInstaller.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2516ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (2276ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (1409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (965ms)
+				ProcessInitializeOnLoadMethodAttributes (196ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.011860 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.013638 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2021-12-08 12:48:32.102 Unity[82884:39358157] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e3c380 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-08 12:48:32.107 Unity[82884:39358157] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003dc0930 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 395.4 MB.
+System memory in use after: 394.9 MB.
+
+Unloading 228 unused Assets to reduce memory usage. Loaded Objects now: 4918.
+Total: 4.953033 ms (FindLiveObjects: 0.495137 ms CreateObjectMapping: 0.310132 ms MarkObjects: 3.808549 ms  DeleteObjects: 0.338059 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Background Textures/Avocado/Avocado_027.jpg
+  artifactKey: Guid(21619a30755c2f34385c0919a8ecd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_027.jpg using Guid(21619a30755c2f34385c0919a8ecd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6e6e09139453ef64dba28522e19ac') in 0.763100 seconds 
+  Import took 0.771433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004553 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_037.jpg
+  artifactKey: Guid(9489a26a48b3beb49b799114902d64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_037.jpg using Guid(9489a26a48b3beb49b799114902d64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6849a8324dd523e09cdf3e20312339c5') in 0.011568 seconds 
+  Import took 0.019767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_028.jpg
+  artifactKey: Guid(a168e07b7f2b9d645b710d09cdd0a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_028.jpg using Guid(a168e07b7f2b9d645b710d09cdd0a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45c678dceb39f98866286e7476dfec4') in 0.009612 seconds 
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_033.jpg
+  artifactKey: Guid(7abbac23f0e81f14f9022930df2a8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_033.jpg using Guid(7abbac23f0e81f14f9022930df2a8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b544a790074ffc6e5571b41bb3206f') in 0.009507 seconds 
+  Import took 0.017564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_018.jpg
+  artifactKey: Guid(badb1e84fb917114c802465ddf55c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_018.jpg using Guid(badb1e84fb917114c802465ddf55c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25020c0ef33a89a2b661d233f26e87da') in 0.010054 seconds 
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_032.jpg
+  artifactKey: Guid(69731c6ada6fdf74a995606e1bd1760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_032.jpg using Guid(69731c6ada6fdf74a995606e1bd1760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9444b32a8ab128f23f86889fa22677') in 0.009556 seconds 
+  Import took 0.016407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_013.jpg
+  artifactKey: Guid(075b7a86d9ef43d40984ad2a7b8ecfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_013.jpg using Guid(075b7a86d9ef43d40984ad2a7b8ecfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32243b75495ceb4629c227982dfe65a') in 0.010251 seconds 
+  Import took 0.016771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_016.jpg
+  artifactKey: Guid(913e3e7927e43254d9116eab33a3f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_016.jpg using Guid(913e3e7927e43254d9116eab33a3f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003f983b365fe00f48a3d92b7cd73d5a') in 0.009340 seconds 
+  Import took 0.016620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_029.jpg
+  artifactKey: Guid(28d6621ae752ae640835a6b11c32a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_029.jpg using Guid(28d6621ae752ae640835a6b11c32a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f59fbe2ef5338ba77e329e80994c8b') in 0.008597 seconds 
+  Import took 0.015312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_026.jpg
+  artifactKey: Guid(49878772410ec2d45a394f1708798dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_026.jpg using Guid(49878772410ec2d45a394f1708798dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da2b07c16bb996b499a2eab101c19ac') in 0.011008 seconds 
+  Import took 0.017990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_010.jpg
+  artifactKey: Guid(11e3fb4183488c844970b31c34107899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_010.jpg using Guid(11e3fb4183488c844970b31c34107899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e576711a025a5dd7e6a4b772494eed7a') in 0.011001 seconds 
+  Import took 0.017993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_008.jpg
+  artifactKey: Guid(042e5e2d823b79d4eb1fbe15508ab9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_008.jpg using Guid(042e5e2d823b79d4eb1fbe15508ab9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca39c9d80e3cab5fa107be86448b5045') in 0.009431 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_022.jpg
+  artifactKey: Guid(8507ec8ead3eff549aff676016f6a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_022.jpg using Guid(8507ec8ead3eff549aff676016f6a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fafaa4c0e657ccc38c157156875261') in 0.012035 seconds 
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_034.jpg
+  artifactKey: Guid(3988c02edb490224092a9bbe2d680ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_034.jpg using Guid(3988c02edb490224092a9bbe2d680ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168649b7ce7b73a072cb6c2f77e47951') in 0.011529 seconds 
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_006.jpg
+  artifactKey: Guid(8049d26d81eaeb5488057e11304d3cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_006.jpg using Guid(8049d26d81eaeb5488057e11304d3cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd946818ac6f0aed535c1f1eee7e60de5') in 0.009968 seconds 
+  Import took 0.017395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_011.jpg
+  artifactKey: Guid(b3dcfecabcd4b2f45b675423edff6687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_011.jpg using Guid(b3dcfecabcd4b2f45b675423edff6687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d55b2895184e44d48e6602b9a0e750b') in 0.009715 seconds 
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_030.jpg
+  artifactKey: Guid(efdb2692b1daef444a4d3ddc4956008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_030.jpg using Guid(efdb2692b1daef444a4d3ddc4956008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11feae7d8d2d42176882982a706dc98d') in 0.013481 seconds 
+  Import took 0.020769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_014.jpg
+  artifactKey: Guid(a76d6d6dd1b2aae49b94437857bb9b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_014.jpg using Guid(a76d6d6dd1b2aae49b94437857bb9b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99dd0db5f52a41cd527c037736c9208') in 0.010748 seconds 
+  Import took 0.019775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_031.jpg
+  artifactKey: Guid(ca11427a0f11d654c9221849cb5bdc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_031.jpg using Guid(ca11427a0f11d654c9221849cb5bdc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0161366f23062719afb94047fa9270') in 0.009688 seconds 
+  Import took 0.017784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_038.jpg
+  artifactKey: Guid(0df1431fa05903e4da09ade7ea7887ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_038.jpg using Guid(0df1431fa05903e4da09ade7ea7887ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b17506ef0d6f05d6d5cb2596676f101') in 0.010470 seconds 
+  Import took 0.020447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_001.jpg
+  artifactKey: Guid(152296d4f9e284e42b7cb777f23953a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_001.jpg using Guid(152296d4f9e284e42b7cb777f23953a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8446b6a5a32559122e8b5a120346f982') in 0.008790 seconds 
+  Import took 0.016425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_007.jpg
+  artifactKey: Guid(04d05b20240bc45488d66d6692ae7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_007.jpg using Guid(04d05b20240bc45488d66d6692ae7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3210e716c09dd8ff90388f373af963') in 0.011018 seconds 
+  Import took 0.018816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_024.jpg
+  artifactKey: Guid(ffc0f53ab4ffe1543ad1e0be8a8a2e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_024.jpg using Guid(ffc0f53ab4ffe1543ad1e0be8a8a2e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f7336206fdb6dede72926cb468b2b') in 0.009594 seconds 
+  Import took 0.017620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_025.jpg
+  artifactKey: Guid(62b325ed338657f4c9772143e0a66085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_025.jpg using Guid(62b325ed338657f4c9772143e0a66085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7930139bb555ef87469dea97b5359b9b') in 0.008497 seconds 
+  Import took 0.016247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_040.jpg
+  artifactKey: Guid(430f675000a744e4498d440c4e4cd923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_040.jpg using Guid(430f675000a744e4498d440c4e4cd923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a575dd6de93a1cebbad60e324a95c024') in 0.009563 seconds 
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_021.jpg
+  artifactKey: Guid(cf6a28a2ba1fb6f45bd8fcbe8737f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_021.jpg using Guid(cf6a28a2ba1fb6f45bd8fcbe8737f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e1960a6c5cf6f255fc1b27753bfc07') in 0.009579 seconds 
+  Import took 0.016800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_009.jpg
+  artifactKey: Guid(c12ea616bfe90bc4e8361aa0e6126a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_009.jpg using Guid(c12ea616bfe90bc4e8361aa0e6126a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1793bcea69a426c327b5a3393602e432') in 0.008901 seconds 
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_012.jpg
+  artifactKey: Guid(ee4cc91486c2ac54bbf5512ecf7edba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_012.jpg using Guid(ee4cc91486c2ac54bbf5512ecf7edba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233f89c109f12aee52acacb66660ec7f') in 0.010724 seconds 
+  Import took 0.018068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_019.jpg
+  artifactKey: Guid(3bb76834e541e4546b6f6281d46d391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_019.jpg using Guid(3bb76834e541e4546b6f6281d46d391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e79f7b425c9a86a700f0e0bce4951d') in 0.015380 seconds 
+  Import took 0.022557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_003.jpg
+  artifactKey: Guid(8b0a2b78bb47a48409dcb761f4291f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_003.jpg using Guid(8b0a2b78bb47a48409dcb761f4291f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ed1cffede9cccf86de58bc83593ca0') in 0.008443 seconds 
+  Import took 0.015774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_035.jpg
+  artifactKey: Guid(312a15df981cc564b9cca5596b1b3139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_035.jpg using Guid(312a15df981cc564b9cca5596b1b3139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3a26f99d6cef83b7f5160e5eaf3354') in 0.008490 seconds 
+  Import took 0.015664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_020.jpg
+  artifactKey: Guid(10bbdec1bfdb0444eb512a75b0d29006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_020.jpg using Guid(10bbdec1bfdb0444eb512a75b0d29006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532a0cd55f3a09c68950caacd8be34b8') in 0.009493 seconds 
+  Import took 0.016454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_015.jpg
+  artifactKey: Guid(4c8e05245253ab74883f7561d2b9a89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_015.jpg using Guid(4c8e05245253ab74883f7561d2b9a89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e13b89ba3b15b1c2f03721f3eb5328b') in 0.011164 seconds 
+  Import took 0.018803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_041.jpg
+  artifactKey: Guid(96f96e2cdc4d38a42b3597adbd1fd1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_041.jpg using Guid(96f96e2cdc4d38a42b3597adbd1fd1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d24c6fc43c5d79cc3d0a55588ce98e0') in 0.011654 seconds 
+  Import took 0.019163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_004.jpg
+  artifactKey: Guid(8a0ad6027644c8e46b356494ac0a597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_004.jpg using Guid(8a0ad6027644c8e46b356494ac0a597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee10c5ea60aab5c6bc2a74695558be7') in 0.012503 seconds 
+  Import took 0.020475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_036.jpg
+  artifactKey: Guid(d038adb0597ac4a4bbbbeab9ce0132a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_036.jpg using Guid(d038adb0597ac4a4bbbbeab9ce0132a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cef2ba145216448681a28f7c0ceb897') in 0.009014 seconds 
+  Import took 0.016543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_005.jpg
+  artifactKey: Guid(8894310ba0e39284b8d979902693890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_005.jpg using Guid(8894310ba0e39284b8d979902693890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89d9f2f9f897e1ee2a9c6b710894ada') in 0.010295 seconds 
+  Import took 0.017045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_023.jpg
+  artifactKey: Guid(3bf483aa3bc4d93458c4e6b5cf8ee610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_023.jpg using Guid(3bf483aa3bc4d93458c4e6b5cf8ee610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171587c0bc57362c6b040afa9eac12a7') in 0.010479 seconds 
+  Import took 0.017163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_002.jpg
+  artifactKey: Guid(9c3efc23985b9264ab63fc5412c9ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_002.jpg using Guid(9c3efc23985b9264ab63fc5412c9ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6e8bebf554f4ee80bc88b268426f5b') in 0.010488 seconds 
+  Import took 0.018938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_017.jpg
+  artifactKey: Guid(8cb9994a5d6fc3a45aa01fb765c4ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_017.jpg using Guid(8cb9994a5d6fc3a45aa01fb765c4ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79ec833aefb0e5d23bd265c99ebd643') in 0.013633 seconds 
+  Import took 0.021145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Background Textures/Avocado/Avocado_039.jpg
+  artifactKey: Guid(33178a966044d4a4399a4ddb38511687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Avocado/Avocado_039.jpg using Guid(33178a966044d4a4399a4ddb38511687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd8fe77c8d300ea6b6a79ad9808520') in 0.010258 seconds 
+  Import took 0.017454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.371312 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_001.jpg
+  artifactKey: Guid(becda7b72130fbd46aaec01fc3b3c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_001.jpg using Guid(becda7b72130fbd46aaec01fc3b3c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa57590a1f30fedb3c8dd545d44e9ca8') in 0.007733 seconds 
+  Import took 0.014561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_018.jpg
+  artifactKey: Guid(95b2039b3e5a3fb4e807a5904a6f4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_018.jpg using Guid(95b2039b3e5a3fb4e807a5904a6f4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f363b34bf1e39a0fbfad4af721a182') in 0.008495 seconds 
+  Import took 0.015494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_026.jpg
+  artifactKey: Guid(b03da71425bfb844baf47aefa2a497ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_026.jpg using Guid(b03da71425bfb844baf47aefa2a497ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac4547574663d10e773f9812ff7070') in 0.009078 seconds 
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_023.jpg
+  artifactKey: Guid(5e9cf2841c248284391d9a656bab5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_023.jpg using Guid(5e9cf2841c248284391d9a656bab5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6277986697d1216f6d17094eda55136') in 0.008821 seconds 
+  Import took 0.015988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_020.jpg
+  artifactKey: Guid(ee657582781ea3741a989029b31acafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_020.jpg using Guid(ee657582781ea3741a989029b31acafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599e94fa0f3f56cac75a86e3ab43c6a7') in 0.009144 seconds 
+  Import took 0.016529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_029.jpg
+  artifactKey: Guid(a3110a9fbb75209439c3e1e97419e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_029.jpg using Guid(a3110a9fbb75209439c3e1e97419e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4a85ce03f423abc727dc11efb1500c') in 0.009403 seconds 
+  Import took 0.017208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_034.jpg
+  artifactKey: Guid(a8450efc55bc18240be6fb00ebb39370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_034.jpg using Guid(a8450efc55bc18240be6fb00ebb39370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bcb8c096d697b7006d7e369d54609c') in 0.008516 seconds 
+  Import took 0.015836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_007.jpg
+  artifactKey: Guid(9f0faf9710682614e87463e26f1e16fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_007.jpg using Guid(9f0faf9710682614e87463e26f1e16fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd46e8e40edebabcdc70d5304e0d497') in 0.012052 seconds 
+  Import took 0.019390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_021.jpg
+  artifactKey: Guid(585f9f4acae264b4d996c99dd8feb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_021.jpg using Guid(585f9f4acae264b4d996c99dd8feb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a49cbec2fa78bdfad4d41381beb0010') in 0.009412 seconds 
+  Import took 0.016991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_045.jpg
+  artifactKey: Guid(497cae886fed3c441930978883153fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_045.jpg using Guid(497cae886fed3c441930978883153fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655415d318faece92292d93879589856') in 0.008696 seconds 
+  Import took 0.016025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_017.jpg
+  artifactKey: Guid(30009afcd92195a44bc00a240bbcc63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_017.jpg using Guid(30009afcd92195a44bc00a240bbcc63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bd0de8c1bf496afd219da06748101a') in 0.008723 seconds 
+  Import took 0.015568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_041.jpg
+  artifactKey: Guid(2f7500cdcd0aa0945908e50451fad43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_041.jpg using Guid(2f7500cdcd0aa0945908e50451fad43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86348524d5132a3b3be1ac12e764ed45') in 0.008640 seconds 
+  Import took 0.016057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_013.jpg
+  artifactKey: Guid(42c49b29e92ea924e93d4f5185516d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_013.jpg using Guid(42c49b29e92ea924e93d4f5185516d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba919d1aab9306c93d03fdb6d14e0937') in 0.009739 seconds 
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_027.jpg
+  artifactKey: Guid(a890c2dfb7742f3439869fb060f23a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_027.jpg using Guid(a890c2dfb7742f3439869fb060f23a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b21f44649f159ed630c01c27af7f9bd') in 0.009349 seconds 
+  Import took 0.016493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_035.jpg
+  artifactKey: Guid(3239db0c76fe4404188a840a159e5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_035.jpg using Guid(3239db0c76fe4404188a840a159e5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb07a71de41eccadcae633e6a690f2b') in 0.008059 seconds 
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_004.jpg
+  artifactKey: Guid(c2c5e2b7cb14d6c44892966567f086a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_004.jpg using Guid(c2c5e2b7cb14d6c44892966567f086a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc1ff0f0741636bdd92a643c99261d7') in 0.011662 seconds 
+  Import took 0.018377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_016.jpg
+  artifactKey: Guid(f4aeb7c3e4e71b844b987a6c0340aeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_016.jpg using Guid(f4aeb7c3e4e71b844b987a6c0340aeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064c27d04d32088478c69d9316a2217') in 0.008831 seconds 
+  Import took 0.016357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_006.jpg
+  artifactKey: Guid(7e57ee579847d864bb9d3f5cef475d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_006.jpg using Guid(7e57ee579847d864bb9d3f5cef475d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f385884efa311762f9ede6ce66580c') in 0.008665 seconds 
+  Import took 0.015837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_009.jpg
+  artifactKey: Guid(f1b4d0739ed3a114392dc58da773fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_009.jpg using Guid(f1b4d0739ed3a114392dc58da773fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1e0fb5b95e6c9c21763f7e7cefe0d1') in 0.009212 seconds 
+  Import took 0.016868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_002.jpg
+  artifactKey: Guid(0a72952b31013fc48a99774b2a014313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_002.jpg using Guid(0a72952b31013fc48a99774b2a014313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ab986b254f9cbd11627d21e960e9c') in 0.010195 seconds 
+  Import took 0.017383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_030.jpg
+  artifactKey: Guid(2e8d5ccee59dd3f479ff44332d0eb5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_030.jpg using Guid(2e8d5ccee59dd3f479ff44332d0eb5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34058ff3a674696def8eaf5d3319669') in 0.010704 seconds 
+  Import took 0.018186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_015.jpg
+  artifactKey: Guid(82b8e8ff344a78e4093341ff04b1620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_015.jpg using Guid(82b8e8ff344a78e4093341ff04b1620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6842d3bb72f12a62b8f08d2158820b') in 0.008193 seconds 
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_010.jpg
+  artifactKey: Guid(2266b8bf69a5e7b4bbd22345984fd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_010.jpg using Guid(2266b8bf69a5e7b4bbd22345984fd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4ad310451109e254e28b325a6e355e') in 0.010863 seconds 
+  Import took 0.018789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_014.jpg
+  artifactKey: Guid(0a8072707231b0d449dd3a97ed5dde0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_014.jpg using Guid(0a8072707231b0d449dd3a97ed5dde0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d87274463173e1a909a169a62b5f608') in 0.028580 seconds 
+  Import took 0.035836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_032.jpg
+  artifactKey: Guid(e809e2b5948cd134b93a9e87e0168d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_032.jpg using Guid(e809e2b5948cd134b93a9e87e0168d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ff6a0b44a3117aabc29cf23edacac4') in 0.011648 seconds 
+  Import took 0.019524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_038.jpg
+  artifactKey: Guid(379d03d83e2fc434f9d8cfcfda9ca499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_038.jpg using Guid(379d03d83e2fc434f9d8cfcfda9ca499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a85e7367a2efcead760784dccde8867') in 0.008218 seconds 
+  Import took 0.015484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_028.jpg
+  artifactKey: Guid(8182fe04fc1f43048a123c4baf646fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_028.jpg using Guid(8182fe04fc1f43048a123c4baf646fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87391380675a24fa381b6d759246011') in 0.009828 seconds 
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_036.jpg
+  artifactKey: Guid(d3b78420e49462c40923131cc6a7aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_036.jpg using Guid(d3b78420e49462c40923131cc6a7aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f518db5c07fecfcee8a12d1ca9b872cb') in 0.028610 seconds 
+  Import took 0.035175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_046.jpg
+  artifactKey: Guid(106959b89a6d8ca439116a9c6a9b67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_046.jpg using Guid(106959b89a6d8ca439116a9c6a9b67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043785cc0df0343543db03d09236d01e') in 0.009566 seconds 
+  Import took 0.016467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_005.jpg
+  artifactKey: Guid(1c1117917e18a5f41be7a65fd8b308db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_005.jpg using Guid(1c1117917e18a5f41be7a65fd8b308db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bef9cbd7bf2733d77024f7a758cc8f0') in 0.008264 seconds 
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_011.jpg
+  artifactKey: Guid(02ef46562679f1d479fc272c4aa2cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_011.jpg using Guid(02ef46562679f1d479fc272c4aa2cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa9ab9a5b8cb3342bed1164ff40c75') in 0.008106 seconds 
+  Import took 0.014955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_044.jpg
+  artifactKey: Guid(3b9019207fea2aa4a9a9f9c3d3f2aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_044.jpg using Guid(3b9019207fea2aa4a9a9f9c3d3f2aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6fede8046d8771e12d9a8da4f4c7f5') in 0.009211 seconds 
+  Import took 0.015926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_037.jpg
+  artifactKey: Guid(48ef72720ebc83b43bbcc2255ccbc838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_037.jpg using Guid(48ef72720ebc83b43bbcc2255ccbc838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467641629013ed0e1b04f345b8abc59d') in 0.007770 seconds 
+  Import took 0.014726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_040.jpg
+  artifactKey: Guid(f5db09ba65b261d4a89e26598ce714da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_040.jpg using Guid(f5db09ba65b261d4a89e26598ce714da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be72bc2313134c0bcb3e43488c07149') in 0.008375 seconds 
+  Import took 0.015676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_012.jpg
+  artifactKey: Guid(a1fd55c08cecb864bb97cbfdee01f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_012.jpg using Guid(a1fd55c08cecb864bb97cbfdee01f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4441c2b5e0628cc16c7542f37d00af6') in 0.009072 seconds 
+  Import took 0.016735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_003.jpg
+  artifactKey: Guid(967f79de33dcab342b2ed20926111271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_003.jpg using Guid(967f79de33dcab342b2ed20926111271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7646b1ac3731f56e64e862e0ea9bcd') in 0.010781 seconds 
+  Import took 0.018252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_031.jpg
+  artifactKey: Guid(6ef0ea925069c2642880eb7ab3c8d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_031.jpg using Guid(6ef0ea925069c2642880eb7ab3c8d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872edae05404342e1e02ef1f17de18bf') in 0.010932 seconds 
+  Import took 0.018227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_019.jpg
+  artifactKey: Guid(b87400e7da5373c469e6802875dc00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_019.jpg using Guid(b87400e7da5373c469e6802875dc00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9306c885d389d35ae0433bca2d6b4bb0') in 0.009763 seconds 
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_033.jpg
+  artifactKey: Guid(47cf3de3b70999743944b6ee69ebb5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_033.jpg using Guid(47cf3de3b70999743944b6ee69ebb5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf399251f386a79252a64c2427f857') in 0.008497 seconds 
+  Import took 0.015562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_022.jpg
+  artifactKey: Guid(b2cece4cc734410478a4a7043a26f462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_022.jpg using Guid(b2cece4cc734410478a4a7043a26f462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a8130d9c78691a4a3f91595805e5ad') in 0.010547 seconds 
+  Import took 0.018403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_008.jpg
+  artifactKey: Guid(2f5b4c85cababf446ab9df58eb6b4513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_008.jpg using Guid(2f5b4c85cababf446ab9df58eb6b4513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9366cdec7fca22f5940cfc92d8eb0254') in 0.011204 seconds 
+  Import took 0.018494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_043.jpg
+  artifactKey: Guid(3ba0b6d186424c2479a1aa074fa41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_043.jpg using Guid(3ba0b6d186424c2479a1aa074fa41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755cecc97eaa3ebb656b444e6082afcc') in 0.008580 seconds 
+  Import took 0.015956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_024.jpg
+  artifactKey: Guid(e1aa13b4ff16ff84c97f91ebc5bec1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_024.jpg using Guid(e1aa13b4ff16ff84c97f91ebc5bec1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3184483c025d9a3f24c50a2b889e65d5') in 0.010877 seconds 
+  Import took 0.017671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_025.jpg
+  artifactKey: Guid(0f455caaab7ed344e896f91343c5fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_025.jpg using Guid(0f455caaab7ed344e896f91343c5fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d7728c9cec11a204fb151e7843e156') in 0.009549 seconds 
+  Import took 0.016806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_039.jpg
+  artifactKey: Guid(f2abd32ee36e9ff4bb57cbdafec02492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_039.jpg using Guid(f2abd32ee36e9ff4bb57cbdafec02492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29779cb88da3df1556cc8b9f8d2be2b') in 0.008394 seconds 
+  Import took 0.015767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Background Textures/Kiwi/Kiwi_042.jpg
+  artifactKey: Guid(3a5ec9a420f5ba2468bd3b1262aa9547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Textures/Kiwi/Kiwi_042.jpg using Guid(3a5ec9a420f5ba2468bd3b1262aa9547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e655078e19f65ebd3685cd689319720c') in 0.010309 seconds 
+  Import took 0.017267 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

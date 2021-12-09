@@ -1,0 +1,14 @@
+.DS_Store
+.vsconfig
+
+/Library
+/Temp
+/obj
+/Build
+
+/.idea
+/.vs
+/.vscode
+
+/*.csproj
+/*.sln
