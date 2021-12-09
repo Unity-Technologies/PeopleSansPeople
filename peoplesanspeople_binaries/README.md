@@ -1,26 +1,42 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision
 
+<!--
 > **Authors:** Salehe Erfanian Ebadi, You-Cyuan Jhang, Alex Zook, Saurav Dhakad, Adam Crespi, Pete Parisi, Steven Borkman, Jonathan Hogins, Sujoy Ganguly
 > <br />
-> **Authors' affiliation:** Unity Technologies
-> <br />
-> **Submitted to:** NeurIPS 2021 Track Datasets and Benchmarks Round2
-> <br />
-> **Paper ID:** 54
+> **Unity Technologies**
+-->
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
+  <a href="https://www.linkedin.com/in/ycjhang">You-Cyuan Jhang</a>, 
+  <a href="https://scholar.google.com/citations?user=2nA9bVMAAAAJ&hl=en&oi=ao">Alex Zook</a>, 
+  <a href="https://www.linkedin.com/in/sauravdhakad/">Saurav Dhakad</a>, 
+  <br>
+  <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a>,
+  <a href="https://www.linkedin.com/in/pete-parisi-81a179">Pete Parisi</a>,
+  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steven Borkman</a>,
+  <a href="https://www.linkedin.com/in/jonathan-hogins-1952b919">Jonathan Hogins</a>,
+  <a href="https://scholar.google.com/citations?hl=en&user=4XuOFfUAAAAJ">Sujoy Ganguly</a>
+  <br>
+  Unity Technologies
+</p>
 
-## IMPORTANT NOTICE:
+## Important Links
 
-**All the files provided are intended only for the NeurIPS 2021 Track Datasets and Benchmarks Round2 review process.**
-<br />
-**Distribution, making additional copies, or usage for purposes other than reviewing for the NeurIPS conference is strictly prohibited.**
-<br />
-**All rights reserved for Unity Technologies.**
+<p align="center">
+  <a href="https://arxiv.org/abs/3940169" style="font-size: 25px; text-decoration: none">Paper</a>
+  &nbsp; &nbsp;
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code</a>
+  &nbsp; &nbsp;
+  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">macOS Binary</a>
+  &nbsp; &nbsp;
+  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
+</p>
 
 ## License
 
 PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
-
+**All rights reserved for Unity Technologies.**
 
 ## Dataset Generation Instructions
 
@@ -36,23 +52,27 @@ Key fields:
 
 ### Running the Mac Binary
 
-1. Download and unzip `mac_0.1.0.zip` file.
+1. Copy the contents of [this repo](https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries) in a local directory, e.g. in:
 ```
-$ wget https://storage.googleapis.com/peoplesanspeople/mac_0.1.0.zip
-$ unzip mac_0.1.0.zip
+/Users/<USERNAME>/
 ```
 
-2. Run the contained script `run.sh`. See usage of the script for more details on how to run this script:
+2. Download and unzip `StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip` file.
+```
+$ wget https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+$ unzip StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+```
 
+3. Run the contained script `run.sh`. See usage of the script for more details on how to run this script:
 ```
 $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh -t Darwin -d /Users/<USERNAME>/mac_0.1.0 -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/mac_0.1.0/log.txt
+$ bash run.sh -t Darwin -d /Users/<USERNAME>/StandaloneOSX -f /Users/<USERNAME>/scenarioConfiguration.json -l /Users/<USERNAME>/StandaloneOSX/log.txt
 ```
 
-3. On macOS the dataset will be written to
+4. On macOS the dataset will be written to
 ```
 /Users/<USERNAME>/Library/Application Support/com.DefaultCompany.HDRPRenderPeople2020.1.17f1/<UUID>
 ```
@@ -63,14 +83,19 @@ The generated dataset will be in Perception format. The annotations will appear 
 
 ### Running the Linux Binary
 
-1. Download and unzip `linux_0.1.0.zip` file
-
+1. Copy the contents of [this repo](https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries) in a local directory, e.g. in:
 ```
-$ wget https://storage.googleapis.com/peoplesanspeople/linux_0.1.0.zip
-$ unzip linux_0.1.0.zip
+/home/<USERNAME>/
 ```
 
-2. Install the necessary graphics driver and vulkan libraries. For example, assuming you have Ubuntu 16.04/ 18.04/ 20.04 LTS with NVIDIA GPU. You can install the drivers as follows:
+2. Download and unzip `StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip` file
+
+```
+$ wget https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+$ unzip StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+```
+
+3. Install the necessary graphics driver and vulkan libraries. For example, assuming you have Ubuntu 16.04/ 18.04/ 20.04 LTS with NVIDIA GPU. You can install the drivers as follows:
     1. ``sudo add-apt-repository ppa:graphics-drivers/ppa``
     2. Check available drivers for your GPU: ``ubuntu-drivers devices``
     3. Install the specific driver: ``sudo apt install <driver_name>``. For 
@@ -81,13 +106,13 @@ $ unzip linux_0.1.0.zip
        
     5. Install vulkan libraries using the command: ``sudo apt install nvidia-settings vulkan-utils``
    
-3. Run `run.sh` script. See usage of the script for more details on how to run this script:
+4. Run `run.sh` script. See usage of the script for more details on how to run this script:
 ```
 $ bash run.sh -h
 ```
 For example:
 ```
-$ bash run.sh -t Linux -d /home/<USERNAME>/linux_0.1.0 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/linux_0.1.0/log.txt
+$ bash run.sh -t Linux -d /home/<USERNAME>/StandaloneLinux64 -f /home/<USERNAME>/scenarioConfiguration.json -l /home/<USERNAME>/StandaloneLinux64/log.txt
 ```
 
 4. The dataset will be written to
