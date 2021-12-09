@@ -1,6 +1,6 @@
 # PSP-Unity
 
-<img src="Packages/Documentation~/images/unity-wide-whiteback.png" align="middle" width="3000"/>
+<img src="Packages/Documentation~/images/U_Logo_Black_RGB.png" align="middle" width="400"/>
 
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 &nbsp;
