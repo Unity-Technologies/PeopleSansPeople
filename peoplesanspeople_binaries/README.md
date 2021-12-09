@@ -33,11 +33,6 @@
   <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
 </p>
 
-## License
-
-PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
-**All rights reserved for Unity Technologies.**
-
 ## Dataset Generation Instructions
 
 We provide two binary files for Linux and macOS. 
@@ -126,3 +121,8 @@ or as an example
 where `<UUID>` is the folder where the generated dataset from the last simulation is saved. The dataset output folder will also be shown in the logs in the terminal.
 
 The generated dataset will be in the [Unity Perception format](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/Schema/Synthetic_Dataset_Schema.md). The annotations will appear under `DatasetXXXX...` folder in `captures_000.json` and the corresponding images will appear in the `RGBXXXX...` folder. Additionally Perception writes scene metadata to `metrics_XXX.json` files under the `DatasetXXXX...` folder. For more information on the format consult the [Unity Perception documentation](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/Schema/Synthetic_Dataset_Schema.md).
+
+## License
+
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
+**All rights reserved for Unity Technologies.**
