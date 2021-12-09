@@ -1,4 +1,4 @@
-# PSP-Unity
+# PeopeSansPeople Unity Environment Template
 
 <img src="Packages/Documentation~/images/U_Logo_Black_RGB.png" align="middle" width="400"/>
 
@@ -9,7 +9,7 @@
 <img src="https://badge-proxy.cds.internal.unity3d.com/5ab9a162-9dd0-4ba1-ba41-cf25378a927a?style=flat-square" alt="perception 0.9.0-preview.2">
 ---
 
-This repository provides the **PeopleSansPeople** project environment in HDRP. The project includes custom randomizers and a few sample human assets provided courtesy of Unity Technologies. 
+This repository provides the **PeopleSansPeople** Unity environment template in HDRP. The project includes custom randomizers and a few sample human assets provided courtesy of Unity Technologies. 
 This environment still provides the full functionality of the **PeopleSansPeople** explained in our paper and the Linux and macOS binary files we have provided. In lieu of 3rd party assets for which we do not own redistribution license, we provide the following example assets/content:
    - 4 Unity-branded assets with different clothing colour but the same appearance.
    - 529 Unity groceries textures.
