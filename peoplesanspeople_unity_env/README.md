@@ -55,4 +55,4 @@ You can then start running the simulation, and should expect randomly generated 
 After your dataset is generated, locate the folder where the data is stored -- this is displayed under the `Hierarchy > HumanScene > Main Camera` in the inspector tab as `Latest Generated Dataset`, and also printed to the console in the Unity editor. Then follow Unity's [datasetinsights](https://github.com/Unity-Technologies/datasetinsights) instructions for installation. Finally, refer to [conversion instructions](https://github.com/Unity-Technologies/datasetinsights#convert-datasets) to convert your data into a COCO-compatible annotation format.
 
 ## License
-PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/Unity-Technologies/PeopleSansPeople/blob/main/LICENSE.md) for the full license text.
