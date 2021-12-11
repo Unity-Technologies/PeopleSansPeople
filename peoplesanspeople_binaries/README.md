@@ -124,5 +124,5 @@ The generated dataset will be in the [Unity Perception format](https://github.co
 
 ## License
 
-PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.
+PeopleSansPeople is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/Unity-Technologies/PeopleSansPeople/blob/main/LICENSE.md) for the full license text.
 **All rights reserved for Unity Technologies.**
