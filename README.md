@@ -105,8 +105,8 @@ instance and semantic segmentation, and COCO pose labels.
 * We use naïve ranges for the domain randomization and generate a synthetic dataset with labels. 
 * We provide some guarantees and analysis of human activities, poses, and context diversity on our synthetic data.
 * We found that pre-training a network using synthetic data and fine-tuning on target real-world data 
-([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83** 
-(COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
+([COCO-person train](https://cocodataset.org/#home)) resulted in few-shot transfer keypoint AP of **60.37 ± 0.48** 
+(COCO test-dev2017) outperforming models trained with the same real data alone (keypoint AP of **55.80**) and pre-trained with ImageNet (keypoint AP of **57.50**).
 
 <details>
   <summary>Abstract (click to expand)</summary>
@@ -159,9 +159,19 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 
 ## Results
 Here we show a comparison of gains obtained from pre-training on our synthetic data and fune-tuning on COCO person class
-over training from scratch on COCO. For each dataset size we show the results of the best performing model.
+over training from scratch and pre-training with ImageNet. For each dataset size we show the results of the best performing model.
 
+<!--
 <table><thead><tr><th></th><th colspan="3">bbox AP</th><th colspan="3">keypoint AP</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td></tr><tr><td>641</td><td>13.82</td><td>42.58</td><td>+28.76</td><td>7.47</td><td>46.40</td><td>+38.93</td></tr><tr><td>6411</td><td>37.82</td><td>49.04</td><td>+11.22</td><td>39.48</td><td>55.21</td><td>+15.73</td></tr><tr><td>32057</td><td>52.15</td><td>55.04</td><td>+2.89</td><td>58.68</td><td>63.38</td><td>+4.70</td></tr><tr><td>64115</td><td>56.73</td><td>57.44</td><td>+0.71</td><td>65.12</td><td>66.83</td><td>+1.71</td></tr></tbody></table>
+
+<table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th><th colspan="5">keypoint AP (COCO person val2017)</th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>48.97</td><td>+11.22</td><td>+6.44</td><td>39.48</td><td>45.99</td><td>55.21</td><td>+15.73</td><td>+9.22</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>54.93</td><td>+2.78</td><td>+2.18</td><td>58.68</td><td>60.28</td><td>63.38</td><td>+4.70</td><td>+3.10</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr></tbody></table>
+-->
+
+<table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>48.97</td><td>+11.22</td><td>+6.44</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>54.93</td><td>+2.78</td><td>+2.18</td></tr></tbody></table>
+
+<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>39.48</td><td>45.99</td><td>55.21</td><td>+15.73</td><td>+9.22</td></tr><tr><td>32057</td><td>58.68</td><td>60.28</td><td>63.38</td><td>+4.70</td><td>+3.10</td></tr></tbody></table>
+
+<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr></tbody></table>
 
 ## Unity Shader Graph randomizer for simulated clothing appearance diversity
 <p align="center">
@@ -266,6 +276,9 @@ over training from scratch on COCO. For each dataset size we show the results of
             and Adam Crespi and Pete Parisi and Steven Borkman and Jonathan Hogins and Sujoy Ganguly},
     journal={arXiv},
     year={2021}
+    eprint={3940169},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
 
