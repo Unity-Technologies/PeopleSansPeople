@@ -1,4 +1,4 @@
-<!-- # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [arXiv](https://arxiv.org/abs/3940169) -->
+# PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--
@@ -10,10 +10,6 @@
 
   gtag('config', 'G-ZCKG4HKTMK');
 </script>
--->
-
-<!--
-### [Paper](https://arxiv.org/abs/3940169) &nbsp; [Source Code](https://github.com/Unity-Technologies/PeopleSansPeople) &nbsp; [macOS Binary](https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip) &nbsp; [Linux Binary](https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip)
 -->
 
 <p align="center">
@@ -49,10 +45,6 @@
   Bottom row: corresponding COCO-style bounding box and keypoint labels.
 </p>
 
-<!--
- &nbsp; &nbsp;
--->
-
 <p align="center">
   <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
   <a href="https://www.linkedin.com/in/ycjhang">You-Cyuan Jhang</a>, 
@@ -67,16 +59,6 @@
   <br>
   Unity Technologies
 </p>
-
-<!--
-> **Authors:** Salehe Erfanian Ebadi, You-Cyuan Jhang, Alex Zook, Saurav Dhakad, Adam Crespi, Pete Parisi, Steven Borkman, Jonathan Hogins, Sujoy Ganguly
-> <br />
-> **Authors' affiliation:** Unity Technologies
-> <br />
-> **Submitted to:** NeurIPS 2021 Track Datasets and Benchmarks Round2
-> <br />
-> **Paper ID:** 54
--->
 
 ---
 
