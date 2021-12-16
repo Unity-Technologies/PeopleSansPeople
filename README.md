@@ -1,4 +1,4 @@
-# PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [arXiv](https://arxiv.org/abs/3940169)
+<!-- # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision, [arXiv](https://arxiv.org/abs/3940169) -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--
