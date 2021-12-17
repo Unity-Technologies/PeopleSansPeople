@@ -119,13 +119,13 @@ real transfer learning in the critical area of human-centric computer vision._
 > * Primitive occluders/distractors
 > * All packaged in a macOS and Linux binary
 
-A comparison between PeopleSansPeople and the COCO person dataset.
+A comparison between our benchmark generated data with PeopleSansPeople and the COCO person dataset.
 <table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
 
 
 ## Generated data and labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
-In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
+In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](<https://github.com/Unity-Technologies/com.unity.perception>) format.
 <p align="center">
   <img src="./images/label_fig/1.png" width="20%" />
   &nbsp; &nbsp;
@@ -136,7 +136,7 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
   <img src="./images/label_fig/4.png" width="20%" />
   <br>
   Generated image and corresponding labels: 2D bounding box, human keypoints, semantic and instance segmentation masks in COCO format. 
-  3D bounding box annotations are provided separately in [Unity Perception](https://github.com/Unity-Technologies/com.unity.perception) format.
+  3D bounding box annotations are provided separately in <a href="https://github.com/Unity-Technologies/com.unity.perception">Unity Perception</a> format.
 </p>
 
 ## Results
@@ -272,6 +272,10 @@ Unity Environment Template [here](<https://github.com/Unity-Technologies/PeopleS
 macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries>)
 
 Unity Tutorial [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
+
+Training Code [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
+
+Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
 
 
 ## Related links
