@@ -1,5 +1,7 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision
 
+<span><a href="https://arxiv.org/abs/3940169" class="btn">Paper</a></span>
+
 [![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 &nbsp;
 <img src="https://img.shields.io/badge/unity-2020.3.20f1-green.svg?style=flat-square" alt="unity 2020.3.20f1">
@@ -25,11 +27,11 @@
 <p align="center">
   <a href="https://arxiv.org/abs/3940169" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code</a>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Training Code & Model Zoo [coming soon]</a>
   &nbsp; &nbsp;
-  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">macOS Binary</a>
+  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Unity Tutorial [coming soon]</a>
   &nbsp; &nbsp;
-  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
+   <a href="https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries" style="font-size: 25px; text-decoration: none">macOS and Linux Binaries</a>
   &nbsp; &nbsp;
   <a href="https://youtu.be/mQ_DUdB70dc" style="font-size: 25px; text-decoration: none">Demo Video</a>
 </p>
@@ -143,7 +145,7 @@ PeopleSansPeople executable binaries come with:
 > * All packaged in a macOS and Linux binary
 
 A comparison between our benchmark generated data with PeopleSansPeople and the COCO person dataset.
-<table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
+<table><thead><tr><th> </th><th>#train</th><th>#validation</th><th>#instances (train)</th><th>#instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
 
 
 ## Generated Data and Labels
@@ -288,8 +290,6 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 ```
 
 ## Source code
-Code is available [here](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
-
 Unity Environment Template [here](<https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_unity_env>)
 
 macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries>)
