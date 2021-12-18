@@ -79,7 +79,7 @@
 > 
 
 ---
-### Demo Video
+### [Demo Video](<https://youtu.be/mQ_DUdB70dc>)
 <!--
 [<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
 -->
