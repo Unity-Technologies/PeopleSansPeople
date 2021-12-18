@@ -1,17 +1,5 @@
 # PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision
 
-<span><a href="https://arxiv.org/abs/3940169" class="btn">Paper</a></span>
-
-[![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
-&nbsp;
-<img src="https://img.shields.io/badge/unity-2020.3.20f1-green.svg?style=flat-square" alt="unity 2020.3.20f1">
-&nbsp;
-<img src="https://badge-proxy.cds.internal.unity3d.com/5ab9a162-9dd0-4ba1-ba41-cf25378a927a?style=flat-square" alt="perception 0.9.0-preview.2">
-
-<p align="center">
-  <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
-</p>
-  
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKG4HKTMK"></script>
@@ -24,6 +12,16 @@
 </script>
 -->
 
+[![license badge](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
+&nbsp;
+<img src="https://img.shields.io/badge/unity-2020.3.20f1-green.svg?style=flat-square" alt="unity 2020.3.20f1">
+&nbsp;
+<img src="https://badge-proxy.cds.internal.unity3d.com/5ab9a162-9dd0-4ba1-ba41-cf25378a927a?style=flat-square" alt="perception 0.9.0-preview.2">
+
+<p align="center">
+  <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
+</p>
+  
 <p align="center">
   <a href="https://arxiv.org/abs/3940169" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
@@ -35,11 +33,6 @@
   &nbsp; &nbsp;
   <a href="https://youtu.be/mQ_DUdB70dc" style="font-size: 25px; text-decoration: none">Demo Video</a>
 </p>
-
-
-<!--
-<form action="https://arxiv.org/abs/3940169/" method="get" target="_blank"><button type="submit">Paper</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/" method="get" target="_blank"><button type="submit">Source Code</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" method="get" target="_blank"><button type="submit">macOS Binary</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" method="get" target="_blank"><button type="submit">Linux Binary</button></form>
--->
 
 <p align="center">
   <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
@@ -81,29 +74,13 @@
 </p>
 
 <!--
----
-
->
-> ### *People + Sans (Middle English for “without”) + People*
-> 
-> #### A privacy-preserving human-centric synthetic data generator without needing real-world human data.
-> 
-
----
--->
-
-<!--
-### [Demo Video](<https://youtu.be/mQ_DUdB70dc>)
+<p align="center">
+  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
+</p>
 -->
 
 <!--
 [<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
--->
-
-<!--
-<p align="center">
-  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
-</p>
 -->
 
 <!--
@@ -147,7 +124,6 @@ PeopleSansPeople executable binaries come with:
 A comparison between our benchmark generated data with PeopleSansPeople and the COCO person dataset.
 <table><thead><tr><th> </th><th>#train</th><th>#validation</th><th>#instances (train)</th><th>#instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
 
-
 ## Generated Data and Labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
 In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](<https://github.com/Unity-Technologies/com.unity.perception>) format.
@@ -167,12 +143,6 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 ## Benchmark Results
 Here we show a comparison of gains obtained from pre-training on our synthetic data and fune-tuning on COCO person class
 over training from scratch and pre-training with ImageNet. For each dataset size we show the results of the best performing model.
-
-<!--
-<table><thead><tr><th></th><th colspan="3">bbox AP</th><th colspan="3">keypoint AP</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td><td>scratch</td><td>w/ pre-train</td><td>Δ</td></tr><tr><td>641</td><td>13.82</td><td>42.58</td><td>+28.76</td><td>7.47</td><td>46.40</td><td>+38.93</td></tr><tr><td>6411</td><td>37.82</td><td>49.04</td><td>+11.22</td><td>39.48</td><td>55.21</td><td>+15.73</td></tr><tr><td>32057</td><td>52.15</td><td>55.04</td><td>+2.89</td><td>58.68</td><td>63.38</td><td>+4.70</td></tr><tr><td>64115</td><td>56.73</td><td>57.44</td><td>+0.71</td><td>65.12</td><td>66.83</td><td>+1.71</td></tr></tbody></table>
-
-<table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th><th colspan="5">keypoint AP (COCO person val2017)</th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td><td>scratch</td><td>w/ ImageNet</td><td>w/ synth</td><td>Δ/scratch</td><td>Δ/ImageNet</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>48.97</td><td>+11.22</td><td>+6.44</td><td>39.48</td><td>45.99</td><td>55.21</td><td>+15.73</td><td>+9.22</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>54.93</td><td>+2.78</td><td>+2.18</td><td>58.68</td><td>60.28</td><td>63.38</td><td>+4.70</td><td>+3.10</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr></tbody></table>
--->
 
 <table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>48.97</td><td>+11.22</td><td>+6.44</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>54.93</td><td>+2.78</td><td>+2.18</td></tr></tbody></table>
 
@@ -272,8 +242,6 @@ over training from scratch and pre-training with ImageNet. For each dataset size
   here with naïvely-chosen ranges with uniform distributions. It is possible to drastically change the look and the 
   structure of the scenes by varying the randomizer parameters.
 </p>
-
-
 
 ## Citation
 ```
