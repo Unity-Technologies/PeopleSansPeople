@@ -132,7 +132,8 @@ We found that pre-training a network using synthetic data and fine-tuning on tar
 This freely available data generator should enable a wide range of research into the emerging field of simulation to real transfer learning in the critical area of human-centric computer vision._
 </details>
 
-## What does PeopleSansPeople provide?
+## Synthetic Data Generator 
+PeopleSansPeople executable binaries come with:
 > * 28 parameterized simulation-ready 3D human assets
 > * 39 diverse animation clips
 > * 21,952 unique clothing textures (from 28 albedos, 28 masks, and 28 normals)
@@ -146,7 +147,7 @@ A comparison between our benchmark generated data with PeopleSansPeople and the 
 <table><thead><tr><th> </th><th># train</th><th># validation</th><th># instances (train)</th><th># instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
 
 
-## Generated data and labels
+## Generated Data and Labels
 PeopleSansPeople produces the following types of labels in COCO format: 2D bounding box, human keypoints, semantic and instance segmentation masks.
 In addition PeopleSansPeople generates 3D bounding boxes which are provided in [Unity's Perception](<https://github.com/Unity-Technologies/com.unity.perception>) format.
 <p align="center">
@@ -162,7 +163,7 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
   3D bounding box annotations are provided separately in <a href="https://github.com/Unity-Technologies/com.unity.perception">Unity Perception</a> format.
 </p>
 
-## Results
+## Benchmark Results
 Here we show a comparison of gains obtained from pre-training on our synthetic data and fune-tuning on COCO person class
 over training from scratch and pre-training with ImageNet. For each dataset size we show the results of the best performing model.
 
@@ -178,7 +179,7 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 
 <table><thead><tr><th></th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr></tbody></table>
 
-## Unity Shader Graph randomizer for simulated clothing appearance diversity
+## Simulated Clothing Appearance Diversity
 <p align="center">
   <img src="./images/shadergraph_renderpeople/renderpeople_material.png" width="80%" />
   <br>
@@ -186,7 +187,7 @@ over training from scratch and pre-training with ImageNet. For each dataset size
   <br>
   Top row: our 3D human assets from RenderPeople with their original clothing textures.
   <br>
-  Bottom row: using Shader Graph randomizers we are able to swap out clothing texture albedos, masks, and normals,
+  Bottom row: using our Shader Graph randomizers we are able to swap out clothing texture albedos, masks, and normals,
   yielding very diverse-looking textures on the clothing, without needing to swap out the clothing items themselves.
 </p>
 
