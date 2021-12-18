@@ -119,7 +119,6 @@ PeopleSansPeople executable binaries come with:
 > * Parameterized camera system
 > * Natural backgrounds
 > * Primitive occluders/distractors
-> * All packaged in a macOS and Linux binary
 
 A comparison between our benchmark generated data with PeopleSansPeople and the COCO person dataset.
 <table><thead><tr><th> </th><th>#train</th><th>#validation</th><th>#instances (train)</th><th>#instances w/ kpts (train)</th></tr></thead><tbody><tr><td>COCO</td><td>64,115</td><td>2,693</td><td>262,465</td><td>149,813</td></tr><tr><td>PeopleSansPeople</td><td>490,000</td><td>10,000</td><td>&gt;3,070,000</td><td>&gt;2,900,000</td></tr></tbody></table>
