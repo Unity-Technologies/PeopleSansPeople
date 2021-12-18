@@ -80,7 +80,8 @@
 
 ---
 ### Demo Video
-[<p align="center"><img src="images/demo/PSP_slideshow Short Demo.gif" width="80%" align="center"/></p>](https://youtu.be/mQ_DUdB70dc)
+[<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
+
 <!--
 <p align="center">
   [<img src="images/demo/PSP_slideshow Short Demo.gif" width="80%" />](https://youtu.be/mQ_DUdB70dc)
