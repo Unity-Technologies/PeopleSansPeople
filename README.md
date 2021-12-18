@@ -122,13 +122,13 @@ instance and semantic segmentation, and COCO pose labels.
   <summary>Abstract (click to expand)</summary>
   <em>In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
 However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
-Additionally, privacy concerns may limit the ability to collect more data. 
+Additionally, privacy, legal, safety, and ethical concerns may limit the ability to collect more human data. 
 An emerging alternative to real-world data that alleviates some of these issues is synthetic data. 
 However, creation of synthetic data generators is incredibly challenging and prevents researchers from exploring their usefulness.
 Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets, a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels. 
 Using PeopleSansPeople, we performed benchmark synthetic data training using a <a href="https://github.com/facebookresearch/detectron2">Detectron2 Keypont R-CNN variant</a>. 
-We found that pre-training a network using synthetic data and fine-tuning on target real-world data (<a href="https://cocodataset.org/#home">COCO-person train</a>) resulted in a keypoint AP of <strong>63.47 ± 0.19</strong> (COCO test-dev2017) outperforming models trained with the same real data alone (keypoint AP of <strong>62.00</strong>) and pre-trained with ImageNet (keypoint AP of <strong>62.40</strong>).
-This freely available data generator should enable a wide range of research into the emerging field of simulation to real transfer learning in the critical area of human-centric computer vision.</em>
+We found that pre-training a network using synthetic data and fine-tuning on target real-world data (few-shot transfer to limited subsets of <a href="https://cocodataset.org/#home">COCO-person train</a>) resulted in a keypoint AP of <strong>60.37 ± 0.48</strong> (COCO test-dev2017) outperforming models trained with the same real data alone (keypoint AP of <strong>55.80</strong>) and pre-trained with ImageNet (keypoint AP of <strong>57.50</strong>).
+This freely-available data generator should enable a wide range of research into the emerging field of simulation to real transfer learning in the critical area of human-centric computer vision.</em>
 </details>
 
 ## Synthetic Data Generator 
