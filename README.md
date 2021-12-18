@@ -83,6 +83,9 @@
 <!--
 [<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
 -->
+<p align="center">
+  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
+</p>
 
 <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
 
