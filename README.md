@@ -79,19 +79,8 @@
 > 
 
 ---
-<p align="center">
-<img src="images/demo/PSP_slideshow Short Demo.gif" width="80%" />
-</p>
-
-<iframe width="560" height="315"
-src="https://youtu.be/mQ_DUdB70dc" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-vid on youtube
-
-[![View on YouTube](images/demo/demo_video.png)](https://youtu.be/mQ_DUdB70dc)
-
+### Demo Video
+[<p align="center"><img src="images/demo/PSP_slideshow Short Demo.gif" width="80%" /></p>](https://youtu.be/mQ_DUdB70dc)
 
 ## Summary
 * We introduce PeopleSansPeople, a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization.
