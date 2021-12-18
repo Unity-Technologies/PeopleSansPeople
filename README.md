@@ -75,7 +75,7 @@
 >
 > ### *People + Sans (Middle English for “without”) + People*
 > 
-> #### A data generator for a few human-centric computer vision tasks without needing real-world human data.
+> #### A privacy-preserving human-centric synthetic data generator without needing real-world human data.
 > 
 
 ---
