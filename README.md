@@ -30,6 +30,8 @@
   <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">macOS Binary</a>
   &nbsp; &nbsp;
   <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
+  &nbsp; &nbsp;
+  <a href="https://youtu.be/mQ_DUdB70dc" style="font-size: 25px; text-decoration: none">Demo Video</a>
 </p>
 
 
@@ -37,6 +39,11 @@
 <form action="https://arxiv.org/abs/3940169/" method="get" target="_blank"><button type="submit">Paper</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/" method="get" target="_blank"><button type="submit">Source Code</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/mac_0.1.1.zip" method="get" target="_blank"><button type="submit">macOS Binary</button></form> &nbsp; <form action="https://github.com/Unity-Technologies/PeopleSansPeople/releases/download/v0.1.1/linux_0.1.1.zip" method="get" target="_blank"><button type="submit">Linux Binary</button></form>
 -->
 
+<p align="center">
+  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
+</p>
+
+<!--
 <p align="center">
   <img src="./images/teaser_images/rgb_1528.png" width="20%" />
 
@@ -54,6 +61,7 @@
 <br>
   Bottom row: corresponding COCO-style bounding box and keypoint labels.
 </p>
+-->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
@@ -70,6 +78,7 @@
   Unity Technologies
 </p>
 
+<!--
 ---
 
 >
@@ -79,14 +88,21 @@
 > 
 
 ---
+-->
+
+<!--
 ### [Demo Video](<https://youtu.be/mQ_DUdB70dc>)
+-->
+
 <!--
 [<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
 -->
 
+<!--
 <p align="center">
   <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
 </p>
+-->
 
 <!--
 <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
@@ -104,21 +120,16 @@ instance and semantic segmentation, and COCO pose labels.
 
 <details>
   <summary>Abstract (click to expand)</summary>
-  
-_In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets.
-However, these datasets had no guarantees or analysis of human activities, poses, or context diversity.
-Additionally, privacy concerns may limit the ability to collect more data.
-An emerging alternative to real-world data that alleviates some of these issues is synthetic data.
+
+_In recent years, person detection and human pose estimation have made great strides, helped by large-scale labeled datasets. 
+However, these datasets had no guarantees or analysis of human activities, poses, or context diversity. 
+Additionally, privacy concerns may limit the ability to collect more data. 
+An emerging alternative to real-world data that alleviates some of these issues is synthetic data. 
 However, creation of synthetic data generators is incredibly challenging and prevents researchers from exploring their usefulness.
-Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets,
-a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels.
-Using PeopleSansPeople, we performed benchmark synthetic data training using a
-[Detectron2 Keypont R-CNN variant](https://github.com/facebookresearch/detectron2).
-We found that pre-training a network using synthetic data and fine-tuning on target real-world data
-([COCO-person train](https://cocodataset.org/#home)) resulted in bbox AP of **57.44** and keypoint AP of **66.83**
-(COCO-person validation) outperforming models trained with the same real data alone (bbox AP of **56.73** and keypoint AP of **65.12**).
-This freely available data generator should enable a wide range of research into the emerging field of simulation to
-real transfer learning in the critical area of human-centric computer vision._
+Therefore, we release a human-centric synthetic data generator PeopleSansPeople which contains simulation-ready 3D human assets, a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels. 
+Using PeopleSansPeople, we performed benchmark synthetic data training using a [Detectron2 Keypont R-CNN variant](https://github.com/facebookresearch/detectron2). 
+We found that pre-training a network using synthetic data and fine-tuning on target real-world data ([COCO-person train](https://cocodataset.org/#home)) resulted in a keypoint AP of **63.47 ± 0.19** (COCO test-dev2017) outperforming models trained with the same real data alone (keypoint AP of **62.00**) and pre-trained with ImageNet (keypoint AP of **62.40**).
+This freely available data generator should enable a wide range of research into the emerging field of simulation to real transfer learning in the critical area of human-centric computer vision._
 </details>
 
 ## What does PeopleSansPeople provide?
