@@ -23,11 +23,11 @@ authors:
   given-names: "Sujoy"
 title: "PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision"
 version: 1.0
-date-released: 2021-12-12
+date-released: 2021-12-17
 url: "https://github.com/Unity-Technologies/PeopleSansPeople/"
 repository-code: "https://github.com/Unity-Technologies/PeopleSansPeople/"
 journal: arXiv
-eprint: 3940169
+eprint: 2112.09290
 archivePrefix: arXiv
 primaryClass: cs.CV
 year: 2021
