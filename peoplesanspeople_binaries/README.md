@@ -24,7 +24,7 @@
 ## Important Links
 
 <p align="center">
-  <a href="https://arxiv.org/abs/3940169" style="font-size: 25px; text-decoration: none">Paper</a>
+  <a href="https://arxiv.org/abs/2112.09290" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code</a>
   &nbsp; &nbsp;
