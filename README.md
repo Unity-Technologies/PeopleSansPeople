@@ -23,7 +23,7 @@
 </p>
   
 <p align="center">
-  <a href="https://arxiv.org/abs/3940169" style="font-size: 25px; text-decoration: none">Paper</a>
+  <a href="https://arxiv.org/abs/2112.09290" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Training Code & Model Zoo [coming soon]</a>
   &nbsp; &nbsp;
@@ -245,14 +245,13 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 ## Citation
 ```
 @article{ebadi2021peoplesanspeople,
-    title={PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision},
-    author={Salehe Erfanian Ebadi and You-Cyuan Jhang and Alex Zook and Saurav Dhakad 
-            and Adam Crespi and Pete Parisi and Steven Borkman and Jonathan Hogins and Sujoy Ganguly},
-    journal={arXiv},
-    year={2021}
-    eprint={3940169},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+      title={PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision}, 
+      author={Salehe Erfanian Ebadi and You-Cyuan Jhang and Alex Zook and Saurav Dhakad and 
+      Adam Crespi and Pete Parisi and Steven Borkman and Jonathan Hogins and Sujoy Ganguly},
+      year={2021},
+      eprint={2112.09290},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
