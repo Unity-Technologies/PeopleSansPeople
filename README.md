@@ -268,6 +268,7 @@ Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/
 
 
 ## Related links
+- [Unity's Blog Post on Human-Centric Computer Vision with Unity Synthetic Data](https://blog.unity.com/technology/human-centric-computer-vision-with-unity-synthetic-data)
 - [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
 - [Unity Computer Vision](https://unity.com/products/computer-vision)
 - [Unity's Perception Tutorial](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/Tutorial/TUTORIAL.md)
@@ -275,6 +276,12 @@ Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/
 - [SynthDet Project](https://github.com/Unity-Technologies/SynthDet)
 - [Robotics Object Pose Estimation Demo](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation)
 - [Unity Simulation Smart Camera Outdoor Example](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor)
+
+
+## PeopleSansPeople in the press
+
+- [VentureBeat: How the metaverse will let you simulate everything](https://venturebeat.com/2022/01/26/omniverse-ability-to-simulate-anything-self-driving-cars-energy-power-consumption/)
+- [WIRED: Gaming Giant Unity Wants to Digitally Clone the World](https://www.wired.com/story/gaming-giant-unity-wants-to-digitally-clone-the-world/)
 
 
 ## License
