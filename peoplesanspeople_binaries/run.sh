@@ -72,7 +72,7 @@ fi
 
 if [[ ${target} == "Linux" ]]
 then
-  binary_dir=$binary_dir"/PeopleSansPeople.x86_64"
+  binary_dir=$binary_dir"/PeopleSansPeople"
   binary_dir=$(echo $binary_dir | tr -s / /)
 "${binary_dir}" -logfile "-" --scenario-config-file ${scenario_config} | tee  ${logfile}
 fi
