@@ -16,7 +16,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/unity-2020.3.20f1-green.svg?style=flat-square" alt="unity 2020.3.20f1">
 &nbsp;
-<img src="https://badge-proxy.cds.internal.unity3d.com/5ab9a162-9dd0-4ba1-ba41-cf25378a927a?style=flat-square" alt="perception 0.9.0-preview.2">
+<img src="https://img.shields.io/badge/Production-0.9.0--preview.2-blue.svg?style=flat-square" alt="perception 0.9.0-preview.2">
 
 <p align="center">
   <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
