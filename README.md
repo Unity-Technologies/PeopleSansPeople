@@ -268,6 +268,7 @@ Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/
 
 
 ## Related links
+- [Watch Unity's webinar on Using Synthetic Data for Computer Vision Model Training on YouTube](https://youtu.be/vQfableD-Cc)
 - [Unity's Blog Post on Human-Centric Computer Vision with Unity Synthetic Data](https://blog.unity.com/technology/human-centric-computer-vision-with-unity-synthetic-data)
 - [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
 - [Unity Computer Vision](https://unity.com/products/computer-vision)
