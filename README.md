@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
+  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="800" ></a>
 </p>
 
 <!--
@@ -269,6 +269,7 @@ Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/
 
 ## Related links
 - [Watch Unity's webinar on Using Synthetic Data for Computer Vision Model Training on YouTube](https://youtu.be/vQfableD-Cc)
+- [Watch our Keynote in ICCV 2021 Fifth Workshop on Computer Vision for AR/VR (CV4ARVR)](https://youtu.be/ZI1M8RPaBO0)
 - [Unity's Blog Post on Human-Centric Computer Vision with Unity Synthetic Data](https://blog.unity.com/technology/human-centric-computer-vision-with-unity-synthetic-data)
 - [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
 - [Unity Computer Vision](https://unity.com/products/computer-vision)
