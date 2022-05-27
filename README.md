@@ -25,10 +25,6 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2112.09290" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Training Code & Model Zoo [coming soon]</a>
-  &nbsp; &nbsp;
-  <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Unity Tutorial [coming soon]</a>
-  &nbsp; &nbsp;
    <a href="https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries" style="font-size: 25px; text-decoration: none">macOS and Linux Binaries</a>
   &nbsp; &nbsp;
   <a href="https://youtu.be/mQ_DUdB70dc" style="font-size: 25px; text-decoration: none">Demo Video</a>
@@ -259,12 +255,6 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 Unity Environment Template [here](<https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_unity_env>)
 
 macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSansPeople/tree/main/peoplesanspeople_binaries>)
-
-Unity Tutorial [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
-
-Training Code [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
-
-Model Zoo [coming soon](<https://github.com/Unity-Technologies/PeopleSansPeople/>)
 
 
 ## Related links
