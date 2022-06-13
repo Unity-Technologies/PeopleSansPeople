@@ -265,6 +265,7 @@ macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSan
 - [Unity Computer Vision](https://unity.com/products/computer-vision)
 - [Unity's Perception Tutorial](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/Tutorial/TUTORIAL.md)
 - [Unity's Human Pose Labeling and Randomization Tutorial](https://github.com/Unity-Technologies/com.unity.perception/blob/master/com.unity.perception/Documentation~/HPTutorial/TUTORIAL.md)
+- [Drone Pose Estimation and Navigation with Unity Project](https://github.com/Unity-Technologies/drone-pose-estimation-navigation)
 - [SynthDet Project](https://github.com/Unity-Technologies/SynthDet)
 - [Robotics Object Pose Estimation Demo](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation)
 - [Unity Simulation Smart Camera Outdoor Example](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor)
