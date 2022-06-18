@@ -251,13 +251,13 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 }
 ```
 ```
-@inproceedings{
-ebadi2022psphdri,
-title={{PSP}-{HDRI}+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
-author={Salehe Erfanian Ebadi and Saurav Dhakad and Sanjay Vishwakarma and Chunpu Wang and You-Cyuan Jhang and Maciek Chociej and Adam Crespi and Alex Thaman and Sujoy Ganguly},
-booktitle={First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022},
-year={2022},
-url={https://openreview.net/forum?id=qvRNTERrwed}
+@inproceedings{ebadi2022psphdri,
+      title={{PSP}-{HDRI}+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
+      author={Salehe Erfanian Ebadi and Saurav Dhakad and Sanjay Vishwakarma and Chunpu Wang and You-Cyuan Jhang and 
+      Maciek Chociej and Adam Crespi and Alex Thaman and Sujoy Ganguly},
+      booktitle={First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022},
+      year={2022},
+      url={https://openreview.net/forum?id=qvRNTERrwed}
 }
 ```
 
