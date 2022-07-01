@@ -270,6 +270,7 @@ macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSan
 ## Related links
 - [Watch Unity's webinar on Using Synthetic Data for Computer Vision Model Training on YouTube](https://youtu.be/vQfableD-Cc)
 - [Watch our Keynote in ICCV 2021 Fifth Workshop on Computer Vision for AR/VR (CV4ARVR)](https://youtu.be/ZI1M8RPaBO0)
+- [Check out HumanDataset: World's most popular 3D human datasets to create ground truth synthtic data for computer vision research and simulation](https://humandataset.com/)
 - [Unity's Blog Post on Human-Centric Computer Vision with Unity Synthetic Data](https://blog.unity.com/technology/human-centric-computer-vision-with-unity-synthetic-data)
 - [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
 - [Unity Computer Vision](https://unity.com/products/computer-vision)
@@ -278,7 +279,6 @@ macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSan
 - [Drone Pose Estimation and Navigation with Unity Project](https://github.com/Unity-Technologies/drone-pose-estimation-navigation)
 - [SynthDet Project](https://github.com/Unity-Technologies/SynthDet)
 - [Robotics Object Pose Estimation Demo](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation)
-- [Unity Simulation Smart Camera Outdoor Example](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor)
 
 
 ## PeopleSansPeople in the press
