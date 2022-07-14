@@ -21,7 +21,49 @@
 <p align="center">
   <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
 </p>
-  
+
+## 📣 Coming soon: PSP-HDRI+ accepted at ICML 2022 
+### ❇️ PSP-HDRI+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models  
+<p align="center">
+  <a href="https://arxiv.org/abs/2207.05025" style="font-size: 25px; text-decoration: none">PSP-HDRI+ Paper</a>
+  &nbsp; &nbsp;
+   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code (Coming Soon)</a>
+  &nbsp; &nbsp;
+  <a href="https://youtu.be/m9Kb_UewuVk" style="font-size: 25px; text-decoration: none">PSP-HDRI+ Demo Video</a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/m9Kb_UewuVk"><img src="images/demo/PSP_HDRI_slideshow Short Demo.gif" align="center" width="800" ></a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
+  <a href="https://www.linkedin.com/in/sauravdhakad/">Saurav Dhakad</a>, 
+  <a href="https://www.linkedin.com/in/sanvishwakarma/">Sanjay Vishwakarma</a>, 
+  <a href="https://ca.linkedin.com/in/chunpu-wang-b1a0a9b7/">Chunpu Wang</a>,
+  <a href="https://www.linkedin.com/in/ycjhang">You-Cyuan Jhang</a>, 
+  <br>
+  <a href="https://www.linkedin.com/in/maciejchociej">Maciek Chociej</a>, 
+  <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a>,
+  <a href="https://www.linkedin.com/in/alex-thaman-93436659">Alex Thaman</a>,
+  <a href="https://scholar.google.com/citations?hl=en&user=4XuOFfUAAAAJ">Sujoy Ganguly</a>
+  <br>
+  Unity Technologies
+</p>
+
+### Citation
+```
+@inproceedings{ebadi2022psphdri,
+      title={{PSP}-{HDRI}+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
+      author={Salehe Erfanian Ebadi and Saurav Dhakad and Sanjay Vishwakarma and Chunpu Wang and You-Cyuan Jhang and 
+      Maciek Chociej and Adam Crespi and Alex Thaman and Sujoy Ganguly},
+      booktitle={First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022},
+      year={2022},
+}
+```
+
+
+## PeopleSansPeople v1.0  
 <p align="center">
   <a href="https://arxiv.org/abs/2112.09290" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
@@ -33,26 +75,6 @@
 <p align="center">
   <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="800" ></a>
 </p>
-
-<!--
-<p align="center">
-  <img src="./images/teaser_images/rgb_1528.png" width="20%" />
-
-  <img src="./images/teaser_images/rgb_2711.png" width="20%" />
-
-  <img src="./images/teaser_images/rgb_8687.png" width="20%" />
-<br>
-  <img src="./images/teaser_images/img__anns__1528.png" width="20%" />
-
-  <img src="./images/teaser_images/img__anns__2711.png" width="20%" />
-
-  <img src="./images/teaser_images/img__anns__8687.png" width="20%" />
-<br>
-  Top row: PeopleSansPeople generated images. 
-<br>
-  Bottom row: corresponding COCO-style bounding box and keypoint labels.
-</p>
--->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/saleheerfanianebadi">Salehe Erfanian Ebadi</a>,
@@ -68,20 +90,6 @@
   <br>
   Unity Technologies
 </p>
-
-<!--
-<p align="center">
-  <a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
-</p>
--->
-
-<!--
-[<img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" />](https://youtu.be/mQ_DUdB70dc)
--->
-
-<!--
-<a href="https://youtu.be/mQ_DUdB70dc"><img src="images/demo/PSP_slideshow Short Demo.gif" align="center" width="80%" ></a>
--->
 
 ## Summary
 * We introduce PeopleSansPeople, a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization.
@@ -139,11 +147,12 @@ In addition PeopleSansPeople generates 3D bounding boxes which are provided in [
 Here we show a comparison of gains obtained from pre-training on our synthetic data and fune-tuning on COCO person class
 over training from scratch and pre-training with ImageNet. For each dataset size we show the results of the best performing model.
 
-<table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>48.97</td><td>+11.22</td><td>+6.44</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>54.93</td><td>+2.78</td><td>+2.18</td></tr></tbody></table>
 
-<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>39.48</td><td>45.99</td><td>55.21</td><td>+15.73</td><td>+9.22</td></tr><tr><td>32057</td><td>58.68</td><td>60.28</td><td>63.38</td><td>+4.70</td><td>+3.10</td></tr></tbody></table>
+<table><thead><tr><th></th><th colspan="5">bbox AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>641</td><td>13.82</td><td>27.61</td><td>42.58</td><td>+28.76</td><td>+14.97</td></tr><tr><td>6411</td><td>37.82</td><td>42.53</td><td>49.04</td><td>+11.22</td><td>+6.51</td></tr><tr><td>32057</td><td>52.15</td><td>52.75</td><td>55.04</td><td>+2.89</td><td>+2.29</td></tr><tr><td>64115</td><td>56.73</td><td>56.09</td><td>57.44</td><td>+0.71</td><td>+1.35</td></tr></tbody></table>
 
-<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>6411</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr></tbody></table>
+<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO person val2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>641</td><td>7.47</td><td>23.51</td><td>46.40</td><td>+38.93</td><td>+22.89</td></tr><tr><td>6411</td><td>39.48</td><td>45.99</td><td>55.21</td><td>+15.73</td><td>+9.22</td></tr><tr><td>32057</td><td>58.68</td><td>60.28</td><td>63.38</td><td>+4.70</td><td>+3.10</td></tr><tr><td>64115</td><td>65.12</td><td>65.10</td><td>66.83</td><td>+1.71</td><td>+1.73</td></tr></tbody></table>
+
+<table><thead><tr><th></th><th colspan="5">keypoint AP (COCO test-dev2017)</th></tr></thead><tbody><tr><td>size of real data</td><td>scratch</td><td>w/ ImageNet</td><td>w/ PeopleSansPeople</td><td>Δ / scratch</td><td>Δ / ImageNet</td></tr><tr><td>641</td><td>6.40</td><td>21.90</td><td>44.43</td><td>+38.03</td><td>+22.53</td></tr><tr><td>6411</td><td>37.30</td><td>44.20</td><td>52.70</td><td>+15.40</td><td>+8.50</td></tr><tr><td>32057</td><td>55.80</td><td>57.50</td><td>60.37</td><td>+4.57</td><td>+2.87</td></tr><tr><td>64115</td><td>62.00</td><td>62.40</td><td>63.47</td><td>+1.47</td><td>+1.07</td></tr></tbody></table>
 
 ## Simulated Clothing Appearance Diversity
 <p align="center">
@@ -248,16 +257,6 @@ over training from scratch and pre-training with ImageNet. For each dataset size
       eprint={2112.09290},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
-}
-```
-```
-@inproceedings{ebadi2022psphdri,
-      title={{PSP}-{HDRI}+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
-      author={Salehe Erfanian Ebadi and Saurav Dhakad and Sanjay Vishwakarma and Chunpu Wang and You-Cyuan Jhang and 
-      Maciek Chociej and Adam Crespi and Alex Thaman and Sujoy Ganguly},
-      booktitle={First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022},
-      year={2022},
-      url={https://openreview.net/forum?id=qvRNTERrwed}
 }
 ```
 
