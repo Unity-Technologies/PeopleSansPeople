@@ -22,8 +22,8 @@
   <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
 </p>
 
-## 📣 Coming soon: PSP-HDRI+ accepted at ICML 2022 
-### ❇️ PSP-HDRI+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models  
+### 📣 Coming soon: PSP-HDRI+ accepted at ICML 2022 
+## ❇️ PSP-HDRI+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models  
 <p align="center">
   <a href="https://arxiv.org/abs/2207.05025" style="font-size: 25px; text-decoration: none">PSP-HDRI+ Paper</a>
   &nbsp; &nbsp;
@@ -64,7 +64,7 @@
 }
 ```
 
-## PeopleSansPeople v1.0  
+## ❇️ PeopleSansPeople v1.0  
 <p align="center">
   <a href="https://arxiv.org/abs/2112.09290" style="font-size: 25px; text-decoration: none">Paper</a>
   &nbsp; &nbsp;
