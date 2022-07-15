@@ -54,6 +54,7 @@
 </p>
 
 ### Citation
+<pre>
 ```
 @inproceedings{ebadi2022psphdri,
       title={{PSP}-{HDRI}+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
@@ -63,6 +64,7 @@
       year={2022},
 }
 ```
+</pre>
 
 ## ❇️ PeopleSansPeople v1.0  
 <p align="center">
