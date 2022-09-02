@@ -22,14 +22,12 @@
   <img src="./images/unity/U_Logo_Black_RGB.png" align="middle" width="200"/>
 </p>
 
-### 📣 Coming soon: PSP-HDRI+ accepted at ICML 2022 
+### 📣 PSP-HDRI+ accepted at ICML 2022 
 ## ❇️ PSP-HDRI+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models  
 <p align="center">
   <a href="https://arxiv.org/abs/2207.05025" style="font-size: 25px; text-decoration: none">PSP-HDRI+ Paper</a>
   &nbsp; &nbsp;
   <a href="images/icml_poster/psphdriplus_icml_2022_poster.pdf" style="font-size: 25px; text-decoration: none">Poster</a>
-  &nbsp; &nbsp;
-   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code (Coming Soon)</a>
   &nbsp; &nbsp;
   <a href="https://youtu.be/m9Kb_UewuVk" style="font-size: 25px; text-decoration: none">PSP-HDRI+ Demo Video</a>
 </p>
