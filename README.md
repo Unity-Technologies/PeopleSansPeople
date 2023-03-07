@@ -55,8 +55,8 @@
 ```
 @inproceedings{ebadi2022psphdri,
       title={PSP-HDRI+: A Synthetic Dataset Generator for Pre-Training of Human-Centric Computer Vision Models},
-      author={Salehe Erfanian Ebadi and Saurav Dhakad and Sanjay Vishwakarma and Chunpu Wang and You-Cyuan Jhang and 
-      Maciek Chociej and Adam Crespi and Alex Thaman and Sujoy Ganguly},
+      author={Erfanian Ebadi, Salehe and Dhakad, Saurav and Vishwakarma, Sanjay and Wang, Chunpu and Jhang, You-Cyuan and 
+      Chociej, Maciek and Crespi, Adam and Thaman, Alex and Ganguly, Sujoy},
       booktitle={First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022},
       year={2022},
 }
@@ -83,7 +83,7 @@
   <br>
   <a href="https://www.linkedin.com/in/adam-crespi-81b1287">Adam Crespi</a>,
   <a href="https://www.linkedin.com/in/pete-parisi-81a179">Pete Parisi</a>,
-  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steven Borkman</a>,
+  <a href="https://www.linkedin.com/in/steve-borkman-5983325">Steve Borkman</a>,
   <a href="https://www.linkedin.com/in/jonathan-hogins-1952b919">Jonathan Hogins</a>,
   <a href="https://scholar.google.com/citations?hl=en&user=4XuOFfUAAAAJ">Sujoy Ganguly</a>
   <br>
@@ -250,8 +250,8 @@ over training from scratch and pre-training with ImageNet. For each dataset size
 ```
 @article{ebadi2021peoplesanspeople,
       title={PeopleSansPeople: A Synthetic Data Generator for Human-Centric Computer Vision}, 
-      author={Salehe Erfanian Ebadi and You-Cyuan Jhang and Alex Zook and Saurav Dhakad and 
-      Adam Crespi and Pete Parisi and Steven Borkman and Jonathan Hogins and Sujoy Ganguly},
+      author={Erfanian Ebadi, Salehe and Jhang, You-Cyuan and Zook, Alex and Dhakad, Saurav and 
+      Crespi, Adam and Parisi, Pete and Borkman, Steve and Hogins, Jonathan and Ganguly, Sujoy},
       year={2021},
       eprint={2112.09290},
       archivePrefix={arXiv},
