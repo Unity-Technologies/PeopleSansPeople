@@ -28,9 +28,9 @@
   &nbsp; &nbsp;
   <a href="https://github.com/Unity-Technologies/PeopleSansPeople" style="font-size: 25px; text-decoration: none">Source Code</a>
   &nbsp; &nbsp;
-  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">macOS Binary</a>
+  <a href="https://peoplesanspeople.blob.core.windows.net/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">macOS Binary</a>
   &nbsp; &nbsp;
-  <a href="https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
+  <a href="https://peoplesanspeople.blob.core.windows.net/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip" style="font-size: 25px; text-decoration: none">Linux Binary</a>
 </p>
 
 ## Dataset Generation Instructions
@@ -54,7 +54,7 @@ Key fields:
 
 2. Download and unzip `StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip` file.
 ```
-$ wget https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+$ wget https://peoplesanspeople.blob.core.windows.net/peoplesanspeople-gha-binaries/StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
 $ unzip StandaloneOSX_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
 ```
 
@@ -86,7 +86,7 @@ The generated dataset will be in Perception format. The annotations will appear 
 2. Download and unzip `StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip` file
 
 ```
-$ wget https://storage.googleapis.com/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
+$ wget https://peoplesanspeople.blob.core.windows.net/peoplesanspeople-gha-binaries/StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
 $ unzip StandaloneLinux64_39ff5eb9ab4ce79440a3f743ebeb4f7b3c967024.zip
 ```
 
