@@ -269,6 +269,7 @@ macOS and Linux binaries [here](<https://github.com/Unity-Technologies/PeopleSan
 - [Watch Unity's webinar on Using Synthetic Data for Computer Vision Model Training Session 1 on YouTube](https://youtu.be/vQfableD-Cc)
 - [Watch Unity's webinar on Using Synthetic Data for Computer Vision Model Training Session 2 on YouTube](https://youtu.be/F3AjbMpluRM?si=y7-W2Cv879SS8VvD)
 - [Watch our Keynote in ICCV 2021 Fifth Workshop on Computer Vision for AR/VR (CV4ARVR)](https://youtu.be/ZI1M8RPaBO0)
+- [Watch our Keynote at AI @ Scale 2022](https://youtu.be/xZlDyBdeF2I?si=zzxU7J8SmMOiBmeU)
 - [Check out HumanDataset: World's most popular 3D human datasets to create ground truth synthtic data for computer vision research and simulation](https://humandataset.com/)
 - [Unity's Blog Post on Human-Centric Computer Vision with Unity Synthetic Data](https://blog.unity.com/technology/human-centric-computer-vision-with-unity-synthetic-data)
 - [Unity's Perception Package](https://github.com/Unity-Technologies/com.unity.perception)
